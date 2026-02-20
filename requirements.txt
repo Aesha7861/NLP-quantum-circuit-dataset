@@ -1,0 +1,20 @@
+# Requires Python >= 3.10 (you use "Path | str" type unions in circuit_classifier.py)
+
+requests>=2.31.0
+PyMuPDF>=1.23.0
+numpy>=1.23.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+arxiv>=2.1.0
+torch>=2.0.0
+torchvision>=0.15.0
+pytesseract>=0.3.10
+transformers==4.57.3
+sentence-transformers==5.2.0
+
+# Dataset used for fine tuning the model
+# For circuit image Kaggle dataset
+https://www.kaggle.com/datasets/dpbmanalysis/quantum-circuit-images
+
+# For non_circuit image dataset
+https://cvit.iiit.ac.in/usodi/Docfig.php
