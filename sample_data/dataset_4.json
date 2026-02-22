@@ -1,0 +1,6346 @@
+{
+  "arXiv_2507.04337_page7_clusters1.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 7,
+    "figure_number": 1,
+    "quantum_gates": [
+      "CNOT",
+      "Measurement"
+    ],
+    "quantum_problem": "Magic State Injection",
+    "descriptions": [
+      "An implementation of a diagonal gate via magic state injection. Left: a diagonal gate D."
+    ],
+    "text_positions": [
+      [
+        18589,
+        18718
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page11_clusters1.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 11,
+    "figure_number": 2,
+    "quantum_gates": [
+      "CNOT",
+      "CRX",
+      "CRZ",
+      "Oracle",
+      "RX",
+      "RZ",
+      "X"
+    ],
+    "quantum_problem": "Oracle Gate Implementation",
+    "descriptions": [
+      "The X gate is a fundamental gate, providing access to the bit-flip operation",
+      "The conditional CφX gate is commonly used as an oracle gate [16, 17, 15, 19]",
+      "A generalization of CφX is the RX gate, parameterized by a real number θ, given as"
+    ],
+    "text_positions": [
+      [
+        29420,
+        29497
+      ],
+      [
+        29497,
+        29574
+      ],
+      [
+        29574,
+        29674
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page12_clusters1.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 12,
+    "figure_number": 3,
+    "quantum_gates": [
+      "CNOT",
+      "CRX",
+      "CRZ",
+      "RX",
+      "RZ"
+    ],
+    "quantum_problem": "Oracle Gate Implementation",
+    "descriptions": [
+      "It is known that an arbitrary single-qubit unitary U may be written as U = eiδRZ(α)RX(β)RZ(γ)",
+      "Hence, we can implement CφU using two CφRZ gates and a CφRX gate as in Fig",
+      "Alternatively, we can use a CφX gate and one ancillary qubit, as shown in Fig"
+    ],
+    "text_positions": [
+      [
+        30080,
+        30226
+      ],
+      [
+        30226,
+        30301
+      ],
+      [
+        30502,
+        30580
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page12_clusters2.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 12,
+    "figure_number": 4,
+    "quantum_gates": [
+      "CNOT",
+      "CRX",
+      "CRZ",
+      "RX",
+      "RZ"
+    ],
+    "quantum_problem": "Oracle Gate Implementation",
+    "descriptions": [
+      "An implementation of a CφU gate using an ancillary qubit, a single CφX gate, two CRZ"
+    ],
+    "text_positions": [
+      [
+        30582,
+        30739
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page14_clusters1.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 14,
+    "figure_number": 5,
+    "quantum_gates": [
+      "RZ"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "By introducing ancillae, we split functions so that conjunctions are over separate variables",
+      "By applying this technique as necessary, we assume without loss of generality that con- junctions of predicates always operate over disjoint qubits",
+      "This means in particular that"
+    ],
+    "text_positions": [
+      [
+        33086,
+        33179
+      ],
+      [
+        33179,
+        33327
+      ],
+      [
+        33327,
+        33404
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page16_clusters1.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 16,
+    "figure_number": 6,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Query gates are a standard technique for providing quantum access to a Boolean mapping g: {0, 1}ℓ−→{0, 1}ℓ[18, 19]",
+      "Given g, we define the query gate Ug to implement the transformation |x⟩|0ℓ⟩ Ug −→|x⟩|g(x)⟩",
+      "The circuit performs the following transformation:"
+    ],
+    "text_positions": [
+      [
+        36373,
+        36525
+      ],
+      [
+        36525,
+        36617
+      ],
+      [
+        37038,
+        37177
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page18_clusters1.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 18,
+    "figure_number": 7,
+    "quantum_gates": [
+      "CNOT",
+      "Oracle"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "First, we show that a particular high- level oracle gate, which directly computes φ, has stabilizer rank 2Ω(ℓ) under ETH",
+      "Second, we implement this oracle gate using two gates that perform ℓparallel 3-bit logical OR operations",
+      "Given a 3-SAT formula φ over k variables and ℓclauses, we can compute whether it is satisfiable by simulating a single CφX oracle gate on a superposition of all assignments to the input variables of φ, as shown in Fig"
+    ],
+    "text_positions": [
+      [
+        41598,
+        41719
+      ],
+      [
+        41719,
+        41824
+      ],
+      [
+        42100,
+        42318
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page19_clusters1.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 19,
+    "figure_number": 8,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Oracle Gate Implementation",
+    "descriptions": [
+      "The following construction implies a bound on χ(ORℓ) in terms of χ(CφX)",
+      "This construction can be implemented using CX and X gates",
+      "We implement the CφX gate via the circuit of Fig"
+    ],
+    "text_positions": [
+      [
+        43070,
+        43142
+      ],
+      [
+        43338,
+        43396
+      ],
+      [
+        43590,
+        43639
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page19_clusters2.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 19,
+    "figure_number": 9,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Oracle Gate Implementation",
+    "descriptions": [
+      "A circuit implementing a CφX gate using two ORℓgates and a CℓX gate."
+    ],
+    "text_positions": [
+      [
+        43708,
+        43796
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page20_clusters1.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 20,
+    "figure_number": 10,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "where χ(CℓX) ≤2 follows from Eqs",
+      "We thus obtain that χ(ORℓ) is not polynomial under P ̸= NP, and χ(ORℓ) = 2Ω(ℓ) under ETH",
+      "10 is substituted for an ORℓgate, the construction instead yields an implementation of an ANDℓgate"
+    ],
+    "text_positions": [
+      [
+        43917,
+        43991
+      ],
+      [
+        44040,
+        44129
+      ],
+      [
+        44583,
+        44682
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page21_clusters1.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 21,
+    "figure_number": 11,
+    "quantum_gates": [
+      "QFT"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "We now derive a bound on the rank of the QFTℓgate, which implements the Quantum Fourier Transform over ℓ-bit quantum states:",
+      "We implement an ADDℓgate via the circuit in Fig",
+      "The circuit performs the following transformation:"
+    ],
+    "text_positions": [
+      [
+        46596,
+        46759
+      ],
+      [
+        46759,
+        46807
+      ],
+      [
+        47115,
+        47168
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page23_clusters1.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 23,
+    "figure_number": 12,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum State Preparation",
+    "descriptions": [
+      "State preparation is an important primitive in quantum software [39], with active research on designing efficient state preparation circuits [11, 40, 41]",
+      "This algorithm initializes an n-qubit state of the form Pk j=1 ψj |xj⟩for basis states |xj⟩using k CnU gates, O(kn) CX gates, and one ancilla qubit",
+      "In the j-th repetition, the repeated section applies a CX gate from the first qubit to any qubit which equals 1 in |xj⟩, then applies a CnU gate, and uncomputes the CX gates"
+    ],
+    "text_positions": [
+      [
+        50814,
+        50991
+      ],
+      [
+        51061,
+        51209
+      ],
+      [
+        51617,
+        51791
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page25_clusters2.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 25,
+    "figure_number": 13,
+    "quantum_gates": [
+      "Oracle"
+    ],
+    "quantum_problem": "Oracle Gate Implementation",
+    "descriptions": [
+      "Table 2: Experimental results for the chained oracle experiment",
+      "To run our simulator, we instead directly implemented the oracle gates using Eq",
+      "ExtStab runs out of memory even on instances of more than one oracle"
+    ],
+    "text_positions": [
+      [
+        54542,
+        54693
+      ],
+      [
+        54861,
+        54941
+      ],
+      [
+        55435,
+        55504
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page26_clusters2.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 26,
+    "figure_number": 14,
+    "quantum_gates": [
+      "Oracle"
+    ],
+    "quantum_problem": "Grover's Algorithm",
+    "descriptions": [
+      "Table 3: Experimental results for simulation of Grover’s algorithm with an oracle given a conjunction of negated variables",
+      "We perform two experiments based on Grover’s algorithm, using different choices of φ",
+      "To obtain low-level circuits, we straightforwardly implement φ using three CkX gates, some X gates, and a C3X gate, then compile using the Qiskit compiler [31]"
+    ],
+    "text_positions": [
+      [
+        56178,
+        56397
+      ],
+      [
+        56677,
+        56762
+      ],
+      [
+        57141,
+        57301
+      ]
+    ]
+  },
+  "arXiv_2507.04337_page27_clusters2.png": {
+    "arxiv_number": "arXiv:2507.04337",
+    "page_number": 27,
+    "figure_number": 15,
+    "quantum_gates": [
+      "Oracle"
+    ],
+    "quantum_problem": "Oracle Gate Implementation",
+    "descriptions": [
+      "Our final experiment involves simulating an oracle gate for the Boolean predicate x > y, defined for k-bit integers x and y",
+      "The oracle is provided as a Cx>yX gate",
+      "Hence in Table 5, we have n = 3k + 1, as we need 2k + 1 qubits to store x, y, and the target qubit"
+    ],
+    "text_positions": [
+      [
+        58764,
+        58927
+      ],
+      [
+        58927,
+        58966
+      ],
+      [
+        59446,
+        59545
+      ]
+    ]
+  },
+  "arXiv_2409.17530_page9_clusters1.png": {
+    "arxiv_number": "arXiv:2409.17530",
+    "page_number": 9,
+    "figure_number": 2,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Therefore, the strong symmetry condition (19) may not be satisfied for any unitary, superpolynomially localized 1-form symme- try generator",
+      "In other words, there is no dressed unitary ˜Ug satisfying ˜Ugρ ∝ρ"
+    ],
+    "text_positions": [
+      [
+        39293,
+        39433
+      ],
+      [
+        39433,
+        39500
+      ]
+    ]
+  },
+  "arXiv_2408.08639_page2_clusters1.png": {
+    "arxiv_number": "arXiv:2408.08639",
+    "page_number": 2,
+    "figure_number": 1,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Shor's Algorithm",
+    "descriptions": [
+      "In both cases, the evolution is unitary, and we may control the length of time, t, for which the system evolves",
+      "1, we choose to formulate the HL problem assuming control on the amount of time evolution, as it requires little optimal control",
+      "By exploring which types of quantum states can be informative, theoretical studies have demonstrated the conditions required to create a dataset from which a Hamiltonian can be efficiently learned"
+    ],
+    "text_positions": [
+      [
+        3837,
+        3949
+      ],
+      [
+        4215,
+        4344
+      ],
+      [
+        4593,
+        4790
+      ]
+    ]
+  },
+  "arXiv_2408.08639_page6_clusters1.png": {
+    "arxiv_number": "arXiv:2408.08639",
+    "page_number": 6,
+    "figure_number": 2,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "(a) The numerically exact time evolution under the Hamiltonian",
+      "(b) The approximate time evolution through integrating the Schrodinger equation, hereby referred to as the vanilla model"
+    ],
+    "text_positions": [
+      [
+        22352,
+        22415
+      ],
+      [
+        22415,
+        22536
+      ]
+    ]
+  },
+  "arXiv_2412.04779_page3_clusters1.png": {
+    "arxiv_number": "arXiv:2412.04779",
+    "page_number": 3,
+    "figure_number": 1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "For a channel N , we denote its confusability graph G(N ) ≡(V, E), where vertices in V rep- resent inputs and edges in E connect inputs that share at least one common output",
+      "The inde- pendence number α(G) of a graph G is the largest set of vertices that are pairwise non-adjacent",
+      "While shared classical correlation cannot increase zero-error, it can be enhanced when assisted by quantum entanglement or more general NS correlations zero-error capacity, respectively denoted by C◦ E and C◦ NS, when assisted by quantum entanglement or more general NS correlations [46, 47]"
+    ],
+    "text_positions": [
+      [
+        8262,
+        8436
+      ],
+      [
+        8436,
+        8542
+      ],
+      [
+        8849,
+        9141
+      ]
+    ]
+  },
+  "arXiv_2412.04779_page4_clusters1.png": {
+    "arxiv_number": "arXiv:2412.04779",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "U",
+      "X"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "The entries specify the outcome probabilities for each input",
+      "Here, inputs are deprecated in columns resulting addition of entries for each column to be 1",
+      "Given the resources N3 & P3, the protocol to transmit one-bit of message from Alice to Bob is depicted here"
+    ],
+    "text_positions": [
+      [
+        10640,
+        10701
+      ],
+      [
+        10701,
+        10794
+      ],
+      [
+        10875,
+        10983
+      ]
+    ]
+  },
+  "arXiv_2412.04779_page7_clusters2.png": {
+    "arxiv_number": "arXiv:2412.04779",
+    "page_number": 7,
+    "figure_number": 4,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The confusability graph G(Mm) of the channel Mm is a complete graph K2m with 2m vertices (see Appendix C)",
+      "However, with the assistance of the NS correlation ˜Rm, Alice can transmit log m-bits of information perfectly to Bob by employing a protocol analogous to Theorem 2",
+      "She then feeds the pair (γ, a) as the input (i1, i2) to the channel Mm"
+    ],
+    "text_positions": [
+      [
+        18589,
+        18695
+      ],
+      [
+        18723,
+        18888
+      ],
+      [
+        19005,
+        19076
+      ]
+    ]
+  },
+  "arXiv_2407.00152_page10_clusters2.png": {
+    "arxiv_number": "arXiv:2407.00152",
+    "page_number": 10,
+    "figure_number": 3,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "know the analytical answers: BB84 4",
+      "1 and MUB 4",
+      "The results are shown in Table 1"
+    ],
+    "text_positions": [
+      [
+        26941,
+        26977
+      ],
+      [
+        26977,
+        26989
+      ],
+      [
+        26991,
+        27024
+      ]
+    ]
+  },
+  "arXiv_2503.24223_page14_clusters1.png": {
+    "arxiv_number": "arXiv:2503.24223",
+    "page_number": 14,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "If we set the parameter deformation ξ to zero, we recover the XXX−1/2 spin-chain (2",
+      "2) in the ξ →0 limit, together with the momenta of the Bethe wavefunctions associated to each eigenstate",
+      "We also list the momenta of the Bethe wavefunctions associated to each eigenstate"
+    ],
+    "text_positions": [
+      [
+        32641,
+        32728
+      ],
+      [
+        33146,
+        33251
+      ],
+      [
+        33818,
+        33900
+      ]
+    ]
+  },
+  "arXiv_2503.24223_page15_clusters1.png": {
+    "arxiv_number": "arXiv:2503.24223",
+    "page_number": 15,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "Notice that the Jordan form of the Hamiltonian is independent of the deformation pa- rameter ξ",
+      "In other words, the eigenvalues of the matrix (4",
+      "In addition, the eigenstate corresponding to the descendant solution with two vanishing momenta, i"
+    ],
+    "text_positions": [
+      [
+        34229,
+        34327
+      ],
+      [
+        34327,
+        34376
+      ],
+      [
+        35443,
+        35542
+      ]
+    ]
+  },
+  "arXiv_2503.24223_page38_clusters1.png": {
+    "arxiv_number": "arXiv:2503.24223",
+    "page_number": 38,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "We see that the eigenvalues have no ξ-dependence and coincide with those of the unde- formed and untwisted model",
+      "24) possesses the same number of Jordan blocks and with the same rank as the deformed Hamiltonian (4",
+      "23), observe that their components with the maximum number of excitations coincide with the eigenstates of the undeformed and untwisted model listed in Table 1 (up to some normalisation factor that is singular in the ξ →0 limit for the generalised eigenstate)"
+    ],
+    "text_positions": [
+      [
+        87627,
+        87740
+      ],
+      [
+        87758,
+        87859
+      ],
+      [
+        88407,
+        88667
+      ]
+    ]
+  },
+  "arXiv_2509.21462_page28_clusters1.png": {
+    "arxiv_number": "arXiv:2509.21462",
+    "page_number": 28,
+    "figure_number": 2,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "In general, given an authorized pair {T1, T2}, one may start with an EPR state, and then apply a Haar random unitary on each side",
+      "As long as U1 and U2 are generic, then only {T1, T2} is exactly authorized",
+      "While we initialize the ancilla qubit as a pure state |0⟩in the above example, we could also initialize it as a maximally mixed state"
+    ],
+    "text_positions": [
+      [
+        70314,
+        70449
+      ],
+      [
+        70449,
+        70524
+      ],
+      [
+        70958,
+        71092
+      ]
+    ]
+  },
+  "arXiv_2501.14447_page12_clusters2.png": {
+    "arxiv_number": "arXiv:2501.14447",
+    "page_number": 12,
+    "figure_number": 5,
+    "quantum_gates": [
+      "QFT"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "An algorithm for the parallelization by extra qubits can be devised by using graph coloring",
+      "A heuristic algorithm is developed in which the central idea is noted below",
+      "(We do not elaborate on the algorithm as the algorithm itself is not the key founding"
+    ],
+    "text_positions": [
+      [
+        24923,
+        25015
+      ],
+      [
+        25015,
+        25091
+      ],
+      [
+        25091,
+        25177
+      ]
+    ]
+  },
+  "arXiv_2501.14447_page18_clusters1.png": {
+    "arxiv_number": "arXiv:2501.14447",
+    "page_number": 18,
+    "figure_number": 6,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The resulting circuit consists of |V | commuting gates and no more than |V |2/2 qubits",
+      "Given a graph G, we construct a commuting circuit vG corresponding to G by Algorithm 4"
+    ],
+    "text_positions": [
+      [
+        36917,
+        37004
+      ],
+      [
+        37418,
+        37505
+      ]
+    ]
+  },
+  "arXiv_2510.11159_page3_clusters1.png": {
+    "arxiv_number": "arXiv:2510.11159",
+    "page_number": 3,
+    "figure_number": 2,
+    "quantum_gates": [],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "become the quantum emitter (QE) transition operators σ† and σ [37]",
+      "The coherent field of the laser is taken with a mixing factor fmix that relates to the amplitude of the steady- state coherence ⟨σ⟩of the QE signal",
+      "While in practice there is no intrinsic connection between σ and β, we choose this relation to parametrize the amplitude and phase of the coherent state"
+    ],
+    "text_positions": [
+      [
+        10103,
+        10218
+      ],
+      [
+        10576,
+        10728
+      ],
+      [
+        10846,
+        10999
+      ]
+    ]
+  },
+  "arXiv_2510.00840_page4_clusters1.png": {
+    "arxiv_number": "arXiv:2510.00840",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "Toffoli"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "The first implementation is the most straightforward one and gives this operator its name",
+      "In a very straightforward manner, we can establish Lemma 1, which gives us the com- plexity associated with this implementation",
+      "There exists a Toffoli circuit that implements L(n) 2 with a Toffoli-depth of n and a Toffoli-count of n, without any ancilla qubit"
+    ],
+    "text_positions": [
+      [
+        7304,
+        7409
+      ],
+      [
+        7821,
+        7949
+      ],
+      [
+        7957,
+        8089
+      ]
+    ]
+  },
+  "arXiv_2510.00840_page5_clusters1.png": {
+    "arxiv_number": "arXiv:2510.00840",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "Toffoli",
+      "X"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "We reproduce in Lemma 2 the result demonstrated in [11], and refer to that paper for further details",
+      "There exists a circuit that implements L(n) 2 over the {Toffoli, X} gate set with a depth of O \u0010 log2 n \u0011 and a gate count of O (n log n), without any ancilla qubit"
+    ],
+    "text_positions": [
+      [
+        9225,
+        9326
+      ],
+      [
+        9352,
+        9517
+      ]
+    ]
+  },
+  "arXiv_2510.00840_page6_clusters1.png": {
+    "arxiv_number": "arXiv:2510.00840",
+    "page_number": 6,
+    "figure_number": 4,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "We give in Algorithm 1 the corresponding pseudocode for any n, where we defined σ(i) = n −i −2 j n 2i k −ω(n mod 2i) to facilitate the writing of the indexes"
+    ],
+    "text_positions": [
+      [
+        10463,
+        10621
+      ]
+    ]
+  },
+  "arXiv_2510.00840_page8_clusters1.png": {
+    "arxiv_number": "arXiv:2510.00840",
+    "page_number": 8,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Toffoli"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "[14] when the linear depth implementation is used instead, the equality given in",
+      "There exists a circuit implementing the operator Addn with n −1 ancilla qubits, that has a Toffoli count of O (n log n) and a Toffoli depth of O \u0010 log2 n \u0011"
+    ],
+    "text_positions": [
+      [
+        14899,
+        14999
+      ],
+      [
+        15440,
+        15597
+      ]
+    ]
+  },
+  "arXiv_2404.06052_page7_clusters1.png": {
+    "arxiv_number": "arXiv:2404.06052",
+    "page_number": 7,
+    "figure_number": 12,
+    "quantum_gates": [],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "3MAJ and 3UMA have circuit implementations in qubit systems [41]",
+      "These circuits can be directly extended to qutrit systems and are therefore omitted",
+      "An example of the reﬁning phase is illustrated in Fig"
+    ],
+    "text_positions": [
+      [
+        27201,
+        27266
+      ],
+      [
+        27266,
+        27350
+      ],
+      [
+        27350,
+        27404
+      ]
+    ]
+  },
+  "arXiv_2404.06052_page8_clusters1.png": {
+    "arxiv_number": "arXiv:2404.06052",
+    "page_number": 8,
+    "figure_number": 14,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "An example for the reﬁning phase of counting circuit in qutrit systems"
+    ],
+    "text_positions": [
+      [
+        30911,
+        30982
+      ]
+    ]
+  },
+  "arXiv_2404.06052_page8_clusters3.png": {
+    "arxiv_number": "arXiv:2404.06052",
+    "page_number": 8,
+    "figure_number": 15,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "First, we add all the ancillary qutrits to the target qutrit twice:",
+      "For the constant term c∅, we apply the X+c∅gate to the target qutrit",
+      "Next, we introduce two key techniques to reduce the circuit depth"
+    ],
+    "text_positions": [
+      [
+        31413,
+        31491
+      ],
+      [
+        32070,
+        32139
+      ],
+      [
+        32139,
+        32205
+      ]
+    ]
+  },
+  "arXiv_2404.06052_page9_clusters1.png": {
+    "arxiv_number": "arXiv:2404.06052",
+    "page_number": 9,
+    "figure_number": 17,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The quantum circuit of quantum fan-out in qutrit systems."
+    ],
+    "text_positions": [
+      [
+        32877,
+        32934
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page17_clusters2.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 17,
+    "figure_number": 1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Note that circuit diagrams are read from left to right, but because each gate corresponds to applying a matrix to the quantum state, the matrices corresponding to the gates should be written from right to left in the mathematical expression describing the action of the circuit",
+      "Because a single qubit is a vector in C2, a single-qubit gate is a unitary matrix in C2×2",
+      "Consider the same three-qubit device, and suppose we want to apply the gate only to the third qubit"
+    ],
+    "text_positions": [
+      [
+        49450,
+        49728
+      ],
+      [
+        50028,
+        50118
+      ],
+      [
+        50118,
+        50218
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page17_clusters4.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 17,
+    "figure_number": 1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "4: Equivalent representation of the circuit with a single-qubit gate in Fig. 1.3."
+    ],
+    "text_positions": [
+      [
+        50875,
+        50951
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page20_clusters2.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 20,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "the single-qubit measurement gate as defined in Post",
+      ", the measurement outcome ⃗ȷ on the q qubits occurs with probability that is exactly equal to |αj|2",
+      "Consider again the following two-qubit state:"
+    ],
+    "text_positions": [
+      [
+        59493,
+        59546
+      ],
+      [
+        59623,
+        59723
+      ],
+      [
+        60016,
+        60133
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page25_clusters2.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 25,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Hadamard"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The uniform superposition of the 2q basis states on q qubits can be obtained from the initial state |⃗0⟩q by applying q gates only",
+      "The multiple Hadamard can be represented by one of the equivalent circuits given in Fig"
+    ],
+    "text_positions": [
+      [
+        72897,
+        73028
+      ],
+      [
+        73028,
+        73116
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page30_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 30,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Toffoli"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "15: Decomposition of CCX in terms of the universal set of gates of Theorem 1",
+      "Indeed, suppose we have a quantum circuit Uf that computes the truth value of a SAT formula on q boolean variables; in other words, a unitary Uf : |⃗ȷ⟩q|0⟩→|⃗ȷ⟩q|f(⃗ȷ)⟩, where f(⃗ȷ) is 1 if the binary string ⃗ȷ satisfies the formula, and 0 if not"
+    ],
+    "text_positions": [
+      [
+        88652,
+        88729
+      ],
+      [
+        88828,
+        89075
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page34_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 34,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "16: A circuit implementing Uf with an uncomputation step",
+      "The corresponding circuit is shown in Fig",
+      "Because the working and auxiliary registers are reset to ⃗0 at the end of the circuit, they are no longer entangled with the rest and can be reused for other purposes, thereby saving working space"
+    ],
+    "text_positions": [
+      [
+        103936,
+        103993
+      ],
+      [
+        104247,
+        104289
+      ],
+      [
+        104294,
+        104491
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page59_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 59,
+    "figure_number": 3,
+    "quantum_gates": [
+      "T"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "We consider all single-qubit and two-qubit gates as elementary, because they can all be constructed with a constant number of basic gates (if the precision is fixed), i",
+      "(Technically, to keep the same accuracy of the entire implementation as n grows, we need to increase the precision with which each gate is approximated with basic gates, but remember that the cost for doing so is only polylogaritmically-large in the precision, see Thm",
+      "2: Implementation of the QFT"
+    ],
+    "text_positions": [
+      [
+        181686,
+        181855
+      ],
+      [
+        181904,
+        182173
+      ],
+      [
+        182539,
+        182568
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page59_clusters2.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 59,
+    "figure_number": 3,
+    "quantum_gates": [
+      "CNOT",
+      "Hadamard",
+      "QFT",
+      "SWAP",
+      "T"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "2: Implementation of the QFT",
+      "We show a full example of the QFT circuit on three qubits",
+      "Using these new names and substituting the SWAP in terms of CX, we obtain the circuit in Fig"
+    ],
+    "text_positions": [
+      [
+        182539,
+        182568
+      ],
+      [
+        182580,
+        182638
+      ],
+      [
+        182861,
+        182954
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page59_clusters3.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 59,
+    "figure_number": 3,
+    "quantum_gates": [
+      "CNOT",
+      "QFT",
+      "SWAP"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "4: Example of the QFT on three qubits, with the SWAP gate decomposed into basic"
+    ],
+    "text_positions": [
+      [
+        183058,
+        183149
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page61_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 61,
+    "figure_number": 3,
+    "quantum_gates": [
+      "Hadamard",
+      "U"
+    ],
+    "quantum_problem": "Quantum Phase Estimation",
+    "descriptions": [
+      "Next, we apply a controlled version of U to the qubit lines corresponding to |ψ⟩, controlled by the m-th qubit; we follow up with an application of U 21 to the qubit lines corresponding to |ψ⟩, controlled by the (m −1)-th qubit; and so on, applying the unitary U 2j controlled by qubit m −j for j = 0,",
+      "5: State preparation for the quantum phase estimation",
+      "5, we examine the effect of applying a Hadamard on qubit m−j, followed by controlled-U 2j, where qubit m−j is the control, and U 2j acts on |ψ⟩when the control is active (i"
+    ],
+    "text_positions": [
+      [
+        187632,
+        187935
+      ],
+      [
+        188075,
+        188129
+      ],
+      [
+        188149,
+        188322
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page61_clusters2.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 61,
+    "figure_number": 3,
+    "quantum_gates": [
+      "QFT"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "6: Quantum phase estimation circuit on m qubits."
+    ],
+    "text_positions": [
+      [
+        189037,
+        189085
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page64_clusters2.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 64,
+    "figure_number": 3,
+    "quantum_gates": [
+      "Y"
+    ],
+    "quantum_problem": "Quantum Phase Estimation",
+    "descriptions": [
+      "ϵ \u0007 , and a circuit to construct the state |ψ⟩such that U|ψ⟩= e2πiφ|ψ⟩, determine a binary string ⃗p with the property that Pr(min{|φ −0",
+      "2 we run QPE using an m-qubit register, but not all of those bits may be accurate in the output, see Thm",
+      "as can be easily verified by noticing that the controlled-U k gate introduces a phase kickback of e2πi2kφ, and the P(θ) gate adds an extra phase θ (see Def"
+    ],
+    "text_positions": [
+      [
+        199912,
+        200135
+      ],
+      [
+        200502,
+        200607
+      ],
+      [
+        200966,
+        201128
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page74_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 74,
+    "figure_number": 4,
+    "quantum_gates": [
+      "CNOT",
+      "Hadamard",
+      "Toffoli",
+      "Z"
+    ],
+    "quantum_problem": "Grover's Algorithm",
+    "descriptions": [
+      "3: Quantum circuit implementing the F operation (up to a global phase factor) used in"
+    ],
+    "text_positions": [
+      [
+        228281,
+        228386
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page74_clusters2.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 74,
+    "figure_number": 4,
+    "quantum_gates": [
+      "CNOT",
+      "Hadamard",
+      "Measurement",
+      "Toffoli",
+      "Z"
+    ],
+    "quantum_problem": "Grover's Algorithm",
+    "descriptions": [
+      "We first implement a Cn−2X gate, with an auxiliary qubit (which is initialized to |0⟩, as one can see from the bottom qubit in Fig",
+      "We then implement a CCZ gate using a CCX and two Hadamard gates on the target qubit; the reader can easily verify that this implements a doubly-controlled Z, using the identity HXH = Z and carrying out the calculations (in the large unitary matrix for CCZ, the gate being controlled appears in the bottom right, just as in CX)",
+      "To conclude, the construction of F (more precisely, −F), and therefore of the whole circuit implementing step (ii) of Grover’s search, can be done using O (n) gates and auxiliary qubits"
+    ],
+    "text_positions": [
+      [
+        228555,
+        228686
+      ],
+      [
+        228718,
+        229045
+      ],
+      [
+        229267,
+        229453
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page86_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 86,
+    "figure_number": 4,
+    "quantum_gates": [
+      "Toffoli",
+      "Z"
+    ],
+    "quantum_problem": "Quantum Phase Estimation",
+    "descriptions": [
+      "8: Quantum circuit implementing the controlled-F operation (up to a global phase factor)"
+    ],
+    "text_positions": [
+      [
+        267033,
+        267165
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page87_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 87,
+    "figure_number": 4,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Amplitude amplification and estimation",
+      "9: Amplitude estimation circuit with m bits of precision",
+      "4 Amplitude estimation for counting and probability estimation"
+    ],
+    "text_positions": [
+      [
+        269867,
+        269909
+      ],
+      [
+        270020,
+        270077
+      ],
+      [
+        270081,
+        270238
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page91_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 91,
+    "figure_number": 4,
+    "quantum_gates": [
+      "RY",
+      "S",
+      "X"
+    ],
+    "quantum_problem": "Grover's Algorithm",
+    "descriptions": [
+      "12: Quantum amplitude estimation circuit on two qubits."
+    ],
+    "text_positions": [
+      [
+        284988,
+        285043
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page95_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 95,
+    "figure_number": 4,
+    "quantum_gates": [
+      "Measurement",
+      "QFT"
+    ],
+    "quantum_problem": "Grover's Algorithm",
+    "descriptions": [
+      "13: Amplitude estimation circuit with m bits of precision, in the context of searching when the number of marked items is unknown",
+      "Because the first register contains a uniform superposition of all basis states on m qubits, applying a measurement yields a uniformly random integer in the set {0,",
+      "Thus, we can replicate the effect of the circuit without the inverse QFT (which still yields the correct result) with the following, simpler algorithm"
+    ],
+    "text_positions": [
+      [
+        296147,
+        296277
+      ],
+      [
+        296521,
+        296687
+      ],
+      [
+        296802,
+        296953
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page108_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 108,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Oracle",
+      "QFT",
+      "U"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "To construct this state via phase kickback, we have used Hadamards everywhere in the first d registers, QFT in the last register, and one application of Uf",
+      "Then, we have a single inverse QFT block, similar to the phase estimation circuit in Fig",
+      "#„ g1, precisely as in the quantum phase estimation circuit"
+    ],
+    "text_positions": [
+      [
+        342040,
+        342196
+      ],
+      [
+        342985,
+        343074
+      ],
+      [
+        343679,
+        343739
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page115_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 115,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Oracle Gate Implementation",
+    "descriptions": [
+      "If we can construct a phase oracle for f(x), then we can apply the gradient algorithm to it",
+      ") To construct the phase oracle we use a construction for the inner product of two quantum states, given access to unitaries that prepare them",
+      "This can be done in many ways, including via a probability oracle inspired by a construction usually known as Hadamard test; we give below such a construction"
+    ],
+    "text_positions": [
+      [
+        368171,
+        368263
+      ],
+      [
+        368403,
+        368546
+      ],
+      [
+        368546,
+        368705
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page148_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 148,
+    "figure_number": 7,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "1: Determining an eigendecomposition of |amp (b)⟩",
+      "We give a simplified exposition of the algorithm that is not entirely accurate, but it conveys the main ideas without getting bogged down in details",
+      "Most of the inaccuracies of our exposition are eventually discussed in subsequent sections, in particular Sect"
+    ],
+    "text_positions": [
+      [
+        482828,
+        482878
+      ],
+      [
+        482882,
+        483078
+      ],
+      [
+        483078,
+        483189
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page150_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 150,
+    "figure_number": 7,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Quantum Phase Estimation",
+    "descriptions": [
+      "We then uncompute the register containing the outcome of the phase estimation, so that we leave the working register in the initial state (and unentangled with the rest), and apply a measurement on the register corresponding to the auxiliary qubit for the rotation",
+      "We claim that when the outcome of the measurement on the last qubit is |1⟩,",
+      "and if the outcome of the measurement in the last register is |1⟩, we obtain C′ P2n−1 h=0 βh λh |ψh⟩in the register that initially contained |amp (b)⟩, where the constant of normalization C′ changes from C because we need to renormalize the state after the measurement — in particular, the state after measurement has unit norm, so C′ = 1/ P2n−1 h=0 βh λh |ψh⟩"
+    ],
+    "text_positions": [
+      [
+        489237,
+        489502
+      ],
+      [
+        489530,
+        489724
+      ],
+      [
+        490013,
+        490384
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page161_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 161,
+    "figure_number": 7,
+    "quantum_gates": [],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "In circuit form, the block-encoding of AB can be implemented as depicted in Fig",
+      "“Postselect |⃗0⟩” indicates that the product AB is successfully applied onto the third register if the first two registers are measured and we observe |⃗0⟩; one can of course applied amplitude amplification to amplify the probability that |⃗0⟩is observed in the two registers"
+    ],
+    "text_positions": [
+      [
+        530116,
+        530196
+      ],
+      [
+        530364,
+        530640
+      ]
+    ]
+  },
+  "arXiv_2408.07086_page231_clusters1.png": {
+    "arxiv_number": "arXiv:2408.07086",
+    "page_number": 231,
+    "figure_number": 9,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Optimization with the adiabatic theorem",
+      "2: Matrix graph of σX 2 (on the left) and σX 1 (on the right) over two qubits",
+      "8)) with the given value of T, which guarantees finding the maximum eigenstate of HF because we start in a maximum eigenstate of HI"
+    ],
+    "text_positions": [
+      [
+        766959,
+        767032
+      ],
+      [
+        767032,
+        767110
+      ],
+      [
+        768371,
+        768503
+      ]
+    ]
+  },
+  "arXiv_2411.04185_page11_clusters3.png": {
+    "arxiv_number": "arXiv:2411.04185",
+    "page_number": 11,
+    "figure_number": -1,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "Another primitive gate for our purposes is the qutrit Fourier transform, denoted by H, which acts on computational states as follows:",
+      "The native implementation of H requires three ZZPhase gates",
+      "Applying the CZ gate to a target qutrit transformed by H, results in the required CX gate"
+    ],
+    "text_positions": [
+      [
+        47134,
+        47419
+      ],
+      [
+        47419,
+        47479
+      ],
+      [
+        47565,
+        47655
+      ]
+    ]
+  },
+  "arXiv_2411.04185_page22_clusters1.png": {
+    "arxiv_number": "arXiv:2411.04185",
+    "page_number": 22,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "We go through the derivation of this circuit below"
+    ],
+    "text_positions": [
+      [
+        66544,
+        66664
+      ]
+    ]
+  },
+  "arXiv_2411.04185_page23_clusters2.png": {
+    "arxiv_number": "arXiv:2411.04185",
+    "page_number": 23,
+    "figure_number": -1,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Similarly, conjugation acting from the toric code side is equivalent to a product of CX, controlled on the neighboring pre-gauged sites",
+      "Only the boundary circuit remains, given by: Y"
+    ],
+    "text_positions": [
+      [
+        71239,
+        71375
+      ],
+      [
+        71711,
+        71780
+      ]
+    ]
+  },
+  "arXiv_2407.08024_page6_clusters1.png": {
+    "arxiv_number": "arXiv:2407.08024",
+    "page_number": 6,
+    "figure_number": 1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "This identification of qubits with the functions Gn,k is illustrated in Fig",
+      "When the number of qubits is fixed at n, this may be simplified to the useful form",
+      "Since Bn takes one unitary basis to another, it is a unitary isomorphism"
+    ],
+    "text_positions": [
+      [
+        12824,
+        12905
+      ],
+      [
+        13013,
+        13128
+      ],
+      [
+        13137,
+        13215
+      ]
+    ]
+  },
+  "arXiv_2510.04874_page10_clusters2.png": {
+    "arxiv_number": "arXiv:2510.04874",
+    "page_number": 10,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Substituting in the above expression for CSs we will obtain the final expression for CSs, let's call them Fox-Wright coherent states (F-WCSs):",
+      "It is observed that the normalization function of the F-WCSs is just the F-W function, i",
+      "In this case, their structure constants are some functions of the form       n B b A a n q p   , , , ;"
+    ],
+    "text_positions": [
+      [
+        22832,
+        23115
+      ],
+      [
+        23224,
+        23322
+      ],
+      [
+        23446,
+        23581
+      ]
+    ]
+  },
+  "arXiv_2506.19614_page14_clusters1.png": {
+    "arxiv_number": "arXiv:2506.19614",
+    "page_number": 14,
+    "figure_number": 3,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Quantum circuit for M measurement."
+    ],
+    "text_positions": [
+      [
+        25357,
+        25391
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page14_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 14,
+    "figure_number": 1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Quantum mechanics is a linear theory, and leading quantum approaches to solving nonlinear differential equations rely on linearization procedures such as Carleman linearization (CL) to yield a larger set of linear differential equations [18, 19]",
+      "Quantum algorithms for solving linear differential equations can be combined with the Carleman- linearized LBM to prepare a quantum state encoding the evolution of the phase space density of the fluid over time",
+      "Given we have the drag force represented as an inner product of two vectors, if we are able to prepare quantum states with amplitudes proportional to these two vectors (with proportionality constants known), then a quantum algorithm for amplitude estimation such as iterative quantum amplitude estimation [47] may be used to estimate the drag force"
+    ],
+    "text_positions": [
+      [
+        44517,
+        44763
+      ],
+      [
+        45704,
+        45915
+      ],
+      [
+        46096,
+        46445
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page25_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 25,
+    "figure_number": -1,
+    "quantum_gates": [
+      "S",
+      "U"
+    ],
+    "quantum_problem": "Grover's Algorithm",
+    "descriptions": [
+      "(b) Grover iterate for QAE",
+      "As an example, the iterative quantum amplitude estimation method [47] ensures an ˜ϵ-accurate estimate of a with confidence 1 −δ using no more than"
+    ],
+    "text_positions": [
+      [
+        73033,
+        73091
+      ],
+      [
+        73229,
+        73535
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page27_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 27,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The higher subroutine calls the lower subroutine a number of times",
+      "– Number of calls to linear ODE matrix A block encoding: we use the analytical upper bounds provided in [21] to determine the number of calls to the linear ODE A matrix block encoding"
+    ],
+    "text_positions": [
+      [
+        79070,
+        79137
+      ],
+      [
+        79137,
+        79321
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page57_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 57,
+    "figure_number": 16,
+    "quantum_gates": [
+      "Oracle",
+      "RY"
+    ],
+    "quantum_problem": "Oracle Gate Implementation",
+    "descriptions": [
+      "We reproduce the circuit from [85] in"
+    ],
+    "text_positions": [
+      [
+        155008,
+        155100
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page58_clusters2.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 58,
+    "figure_number": 18,
+    "quantum_gates": [
+      "Oracle",
+      "RY"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "For both structured block encoding schemes, we use Odata and O′ data to represent any unitary matrix that actually contains the nonzero matrix elements",
+      "The actual implementation will depend on the structure of the surrounding circuit elements",
+      "Dense unstructured matrix For a dense unstructured square matrix A ∈RN×N where N = 2q, the circuit will have quantum registers for the column and row labels and will consist mostly of a data oracle O′′ data that stores the data items appropriately"
+    ],
+    "text_positions": [
+      [
+        156713,
+        156865
+      ],
+      [
+        156865,
+        156956
+      ],
+      [
+        156956,
+        157204
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page58_clusters3.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 58,
+    "figure_number": 19,
+    "quantum_gates": [
+      "CNOT",
+      "RY"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Since we have real elements, we can use uniformly controlled Ry rotations per",
+      "The above naive implementation of O′′ data for generic square matrix A requires O(N 4) operations where we have O(N 2) CTRL2q-(Ry) gates (each using 2q control qubits)",
+      "This is worse than what we can achieve classically"
+    ],
+    "text_positions": [
+      [
+        157389,
+        157483
+      ],
+      [
+        157609,
+        157777
+      ],
+      [
+        157832,
+        157883
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page60_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 60,
+    "figure_number": 20,
+    "quantum_gates": [
+      "Oracle",
+      "SWAP",
+      "T"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "We have from [90], the resources for Ocomp const(ν=n) is (8⌈log2 n2⌉−16) T-gates and an additional (3⌈log2 n2⌉−2) ancilla qubits for ¯D(2)",
+      "For ¯D(3), the cost for Ocomp const(ν=n) is (8⌈log2 n3⌉−16) T-gates and an additional (3⌈log2 n3⌉−2) ancilla qubits",
+      "For the Oj(d,m) oracle, we need an oracle that multiplies an integer in a register by a constant"
+    ],
+    "text_positions": [
+      [
+        162843,
+        162988
+      ],
+      [
+        162988,
+        163104
+      ],
+      [
+        163104,
+        163201
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page61_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 61,
+    "figure_number": 21,
+    "quantum_gates": [
+      "T"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Here, Aa is the ancilla register of A and Ad is the data register of A, likewise for B",
+      "The results are summarized in table 13",
+      "Matrix Block Encoding T-gate count"
+    ],
+    "text_positions": [
+      [
+        164412,
+        164499
+      ],
+      [
+        164613,
+        164652
+      ],
+      [
+        164652,
+        164696
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page62_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 62,
+    "figure_number": 22,
+    "quantum_gates": [
+      "Hadamard"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Next, we define the matrix of all possible dot products C = cc⊤∈RQ×Q, which describes the dot product in (122)",
+      "Then the matrices containing each of the first two dot products in (123) and (124) can be expressed as",
+      "The matrix describing the product of these two expressions is given by the Hadamard product, or entry-wise product of two matrices"
+    ],
+    "text_positions": [
+      [
+        167912,
+        168023
+      ],
+      [
+        168023,
+        168177
+      ],
+      [
+        168177,
+        168542
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page63_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 63,
+    "figure_number": 23,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "To block encode the W matrix (136a), we encode the three-fold tensor product of w = diag \u0000 1",
+      "The circuit in"
+    ],
+    "text_positions": [
+      [
+        170120,
+        170360
+      ],
+      [
+        170370,
+        170445
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page63_clusters2.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 63,
+    "figure_number": 24,
+    "quantum_gates": [],
+    "quantum_problem": "Grover's Algorithm",
+    "descriptions": [
+      "The circuit in",
+      "We then combine the Grover matrix with pieces from the previous section to arrive at a complete block encoding for F1:"
+    ],
+    "text_positions": [
+      [
+        170370,
+        170445
+      ],
+      [
+        170633,
+        170762
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page64_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 64,
+    "figure_number": 26,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Block encoding F2 Now we are prepared to convert the equations we’ve developed into block- encoding circuits",
+      "To precisely account for resources (e",
+      "Working with powers of 2 will facilitate the circuit construction"
+    ],
+    "text_positions": [
+      [
+        172338,
+        172447
+      ],
+      [
+        172447,
+        172485
+      ],
+      [
+        172686,
+        172752
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page66_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 66,
+    "figure_number": 29,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Slashes indicate 4-qubit ancillary registers",
+      "The upper six data qubits (CNOT targets) will be zeroed out later"
+    ],
+    "text_positions": [
+      [
+        175875,
+        175920
+      ],
+      [
+        175920,
+        175986
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page66_clusters2.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 66,
+    "figure_number": 30,
+    "quantum_gates": [
+      "Hadamard",
+      "RY",
+      "T",
+      "Y"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Slashes indicate 4-qubit ancillary registers",
+      "The upper six data qubits (CNOT targets) will be zeroed out later",
+      "The slash in the top line denotes a 6-qubit ancillary register"
+    ],
+    "text_positions": [
+      [
+        175875,
+        175920
+      ],
+      [
+        175920,
+        175986
+      ],
+      [
+        176094,
+        176157
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page67_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 67,
+    "figure_number": 31,
+    "quantum_gates": [],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "The slash on the LHS denotes a 6-qubit ancillary register upon which (A† a)⊗6 acts; there are an additional two ancillae above for the block encoding of a matrix with top row [1,1,1,0]",
+      "The slashes on the RHS denote an 8-qubit ancillary register (upper) and a 12-qubit data register (lower) upon which (A† d)⊗6 acts",
+      "The slash on the middle line denotes an 8-qubit ancillary register, while the slash on the bottom line denotes the 12-qubit data register"
+    ],
+    "text_positions": [
+      [
+        176271,
+        176456
+      ],
+      [
+        176456,
+        176586
+      ],
+      [
+        176700,
+        176838
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page67_clusters2.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 67,
+    "figure_number": 32,
+    "quantum_gates": [],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "The slash on the LHS denotes a 6-qubit ancillary register upon which (A† a)⊗6 acts; there are an additional two ancillae above for the block encoding of a matrix with top row [1,1,1,0]",
+      "The slashes on the RHS denote an 8-qubit ancillary register (upper) and a 12-qubit data register (lower) upon which (A† d)⊗6 acts",
+      "The slash on the middle line denotes an 8-qubit ancillary register, while the slash on the bottom line denotes the 12-qubit data register"
+    ],
+    "text_positions": [
+      [
+        176271,
+        176456
+      ],
+      [
+        176456,
+        176586
+      ],
+      [
+        176700,
+        176838
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page70_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 70,
+    "figure_number": 35,
+    "quantum_gates": [
+      "CNOT",
+      "CZ"
+    ],
+    "quantum_problem": "Quantum State Preparation",
+    "descriptions": [
+      "The sufficiently large auxiliary space is the |0⟩⊗k aux register, the flag qubit for S1 is |0⟩S1, flag qubit for S2 is |0⟩S2",
+      "The velocity magnitudes are (cx, cy, cz) ∈{1, 0, −1}3",
+      "During the initial state preparation, the amplitude of states that include the bit string 10 are fixed to zero"
+    ],
+    "text_positions": [
+      [
+        181602,
+        181727
+      ],
+      [
+        181925,
+        181979
+      ],
+      [
+        182094,
+        182205
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page71_clusters2.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 71,
+    "figure_number": 37,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The first gadget is the INC3(x) which just does the operation x ←(x + 1) mod 3 that is represented in",
+      "The next gadget ("
+    ],
+    "text_positions": [
+      [
+        184833,
+        184945
+      ],
+      [
+        184945,
+        185253
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page72_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 72,
+    "figure_number": 38,
+    "quantum_gates": [
+      "Toffoli"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "is meant denote that are skipping the first qubit in the |η⟩register and blue is meant to denote that we are skipping the first two qubits in the |η⟩"
+    ],
+    "text_positions": [
+      [
+        186816,
+        187072
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page72_clusters3.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 72,
+    "figure_number": 39,
+    "quantum_gates": [
+      "T"
+    ],
+    "quantum_problem": "Quantum State Preparation",
+    "descriptions": [
+      "We are finally in a position to write the block-encoding circuit for streaming matrix as defined in (141)",
+      "The circuit is shown in"
+    ],
+    "text_positions": [
+      [
+        187805,
+        187911
+      ],
+      [
+        187911,
+        187945
+      ]
+    ]
+  },
+  "arXiv_2406.06323_page75_clusters1.png": {
+    "arxiv_number": "arXiv:2406.06323",
+    "page_number": 75,
+    "figure_number": 40,
+    "quantum_gates": [
+      "T"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "First, we compute the result of the c-P ′U ¯ Frc-P sub-circuit:"
+    ],
+    "text_positions": [
+      [
+        195047,
+        195193
+      ]
+    ]
+  },
+  "arXiv_2509.16777_page17_clusters1.png": {
+    "arxiv_number": "arXiv:2509.16777",
+    "page_number": 17,
+    "figure_number": 4,
+    "quantum_gates": [
+      "QFT",
+      "RZ",
+      "U"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "(a) The (m+1)-qubit QFT layer F2m+1 together with the parallel phase gates Nm k=0 RZ(−π/2k) realizes the cyclic shift",
+      "controlled phase operations in QFT",
+      "Using the multi-controlled gate decompositions of [21], the resulting controlled circuits incur only a constant-factor overhead in depth compared to their un- controlled versions"
+    ],
+    "text_positions": [
+      [
+        34465,
+        34583
+      ],
+      [
+        34847,
+        34882
+      ],
+      [
+        34882,
+        35061
+      ]
+    ]
+  },
+  "arXiv_2509.16777_page19_clusters1.png": {
+    "arxiv_number": "arXiv:2509.16777",
+    "page_number": 19,
+    "figure_number": 5,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "An RY gate prepares amplitudes proportional to √αH and √αθF αK; the branch unitary applies I ⊗UH on |0⟩and i UθF ⊗UK on |1⟩",
+      "Algorithm 3 From block encodings of H, K, and θFh to a block encoding of I⊗H + i θFh⊗K",
+      "2: Block encoding of θFh ⊗K: Construct UθF⊗K := UθF ⊗UK, which is an (αθF αK, aθF +aK, ϵθF⊗K) block encoding of θFh ⊗K with ϵθF⊗K = ϵθF + ϵK + ϵθF ϵK"
+    ],
+    "text_positions": [
+      [
+        38182,
+        38306
+      ],
+      [
+        38408,
+        38629
+      ],
+      [
+        38629,
+        38779
+      ]
+    ]
+  },
+  "arXiv_2412.01384_page14_clusters1.png": {
+    "arxiv_number": "arXiv:2412.01384",
+    "page_number": 14,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Measurements of two-point and four-point correla- tions in a 4 × 2 lattice XXZ model with setting β = 8",
+      "(I), (II), and (III) represent the next-nearest-neighbor two-point correlation in the x-direction, nearest-neighbor two-point cor- relation in the y-direction, and nearest-neighbor two-point correlation in the x-direction, respectively",
+      "(IV) represents the correlation between a nearest-neighbor pair and another pair"
+    ],
+    "text_positions": [
+      [
+        58496,
+        58600
+      ],
+      [
+        58600,
+        58836
+      ],
+      [
+        58836,
+        58917
+      ]
+    ]
+  },
+  "arXiv_2412.01384_page17_clusters1.png": {
+    "arxiv_number": "arXiv:2412.01384",
+    "page_number": 17,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "arXiv_2504.06528_page1_clusters1.png": {
+    "arxiv_number": "arXiv:2504.06528",
+    "page_number": 1,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Our results lay the groundwork for developing low-latency feedback control systems, benchmarking their performance, and advancing scalable quantum hardware",
+      "Quantum processors rely on classical control and ac- quisition systems to prepare, manipulate, and read out their quantum states",
+      "Their recent deployment in practical set- tings has enabled the preparation of defect-free configu- rations of atoms [1–3], the realization of non-local con- nectivity by displacing atoms [4], and the implementation of mid-circuit measurements and feedforward operations to stabilize quantum gates [5] and realize quantum error correction codes [6]"
+    ],
+    "text_positions": [
+      [
+        1689,
+        1845
+      ],
+      [
+        1847,
+        1989
+      ],
+      [
+        2473,
+        2822
+      ]
+    ]
+  },
+  "arXiv_2509.11856_page9_clusters1.png": {
+    "arxiv_number": "arXiv:2509.11856",
+    "page_number": 9,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Another interesting possibility to probe the structure of EPs in the system is to study the quantum geomet- ric tensor (QGT)",
+      "QGT was introduced in Ref",
+      "[30] for Hermitian (closed) quantum systems, and has recently been extended for non-Hermitian systems [31, 32], where it was shown that it diverges in the vicinity of an EP [33]"
+    ],
+    "text_positions": [
+      [
+        29803,
+        29996
+      ],
+      [
+        29996,
+        30022
+      ],
+      [
+        30022,
+        30200
+      ]
+    ]
+  },
+  "arXiv_2403.03350_page7_clusters1.png": {
+    "arxiv_number": "arXiv:2403.03350",
+    "page_number": 7,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Hadamard",
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "A third approach is the PITE algorithm [24, 27, 37–39], where the imaginary time evolution is encoded into a unitary operation acting on a larger Hilbert space",
+      "After evolv- ing the total system one step using this larger unitary operator, an ancilla qubit can be measured to determine whether the step of imaginary time evolution was suc- cessfully applied or not",
+      "This approach is conceptually similar to ITQDE, but im- plements the linear combination of unitaries coherently through the use of ancilla qubits, and the associated over- head costs suggest that it may be most suitable for fu- ture fault-tolerant quantum computers"
+    ],
+    "text_positions": [
+      [
+        27659,
+        27819
+      ],
+      [
+        27819,
+        28023
+      ],
+      [
+        28612,
+        28878
+      ]
+    ]
+  },
+  "arXiv_2410.22261_page2_clusters1.png": {
+    "arxiv_number": "arXiv:2410.22261",
+    "page_number": 2,
+    "figure_number": -1,
+    "quantum_gates": [
+      "QFT"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "In Quipper, the controlled function inputs a circuit and returns the controlled version of the circuit",
+      "For example, Bennett’s method for constructing reversible classical circuits [1] uses this pattern to initialize ancillary qubits and uncompute them; and the quantum Fourier transform (QFT) addition [4] conjugates a series of controlled rotation gates by the QFT",
+      "This pattern is used so often that Quipper implements the following optimization: when controlling a quantum circuit g; f;g† generated by the with-computed function, it suffices to control the circuit f"
+    ],
+    "text_positions": [
+      [
+        3730,
+        3873
+      ],
+      [
+        4119,
+        4382
+      ],
+      [
+        4382,
+        4585
+      ]
+    ]
+  },
+  "arXiv_2410.22261_page2_clusters2.png": {
+    "arxiv_number": "arXiv:2410.22261",
+    "page_number": 2,
+    "figure_number": -1,
+    "quantum_gates": [
+      "QFT",
+      "T"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "The with-computed circuit pattern is very common in quantum computing",
+      "For example, Bennett’s method for constructing reversible classical circuits [1] uses this pattern to initialize ancillary qubits and uncompute them; and the quantum Fourier transform (QFT) addition [4] conjugates a series of controlled rotation gates by the QFT",
+      "This pattern is used so often that Quipper implements the following optimization: when controlling a quantum circuit g; f;g† generated by the with-computed function, it suffices to control the circuit f"
+    ],
+    "text_positions": [
+      [
+        4042,
+        4119
+      ],
+      [
+        4119,
+        4382
+      ],
+      [
+        4382,
+        4585
+      ]
+    ]
+  },
+  "arXiv_2410.22261_page6_clusters1.png": {
+    "arxiv_number": "arXiv:2410.22261",
+    "page_number": 6,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "(d) An identity-on-objects, strict dagger symmetric monoidal functor G : N →R such that",
+      "• The functor G gives an intended interpretation for the with-computed function"
+    ],
+    "text_positions": [
+      [
+        15997,
+        16141
+      ],
+      [
+        16141,
+        16221
+      ]
+    ]
+  },
+  "arXiv_2410.22261_page6_clusters2.png": {
+    "arxiv_number": "arXiv:2410.22261",
+    "page_number": 6,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "(d) An identity-on-objects, strict dagger symmetric monoidal functor G : N →R such that",
+      "• The functor G gives an intended interpretation for the with-computed function"
+    ],
+    "text_positions": [
+      [
+        15997,
+        16141
+      ],
+      [
+        16141,
+        16221
+      ]
+    ]
+  },
+  "arXiv_2410.22261_page10_clusters1.png": {
+    "arxiv_number": "arXiv:2410.22261",
+    "page_number": 10,
+    "figure_number": 3,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "We write (C′,Σ′) = append(C3,Σ3,a,D,b,Σ) for this operation",
+      "where S = Qubit ⊗Qubit and CNOT : Qubit ⊗Qubit →Qubit ⊗Qubit is a morphism in N",
+      "Using the box rule, we first call gen(S), which returns a pair of fresh labels (ℓ1,ℓ2) and the label context Σ = ℓ1 : Qubit,ℓ2 : Qubit"
+    ],
+    "text_positions": [
+      [
+        29838,
+        29898
+      ],
+      [
+        30275,
+        30406
+      ],
+      [
+        30406,
+        30541
+      ]
+    ]
+  },
+  "arXiv_2410.22261_page16_clusters1.png": {
+    "arxiv_number": "arXiv:2410.22261",
+    "page_number": 16,
+    "figure_number": -1,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum State Preparation",
+    "descriptions": [
+      "Here, we give a basic example of using control and with-computed in the prototype implementation of Proto-Quipper from [5]",
+      "The function box_parallel_T generates the 7 parallel T gates in the middle of the circuit and the function box_cnot_circuit generates the initialization gates and the cnot circuits before the parallel T gates",
+      "We can use Proto-Quipper’s control operator to add an an extra control to the CCZ circuit"
+    ],
+    "text_positions": [
+      [
+        44693,
+        44885
+      ],
+      [
+        45113,
+        45436
+      ],
+      [
+        45495,
+        45585
+      ]
+    ]
+  },
+  "arXiv_2410.22261_page16_clusters2.png": {
+    "arxiv_number": "arXiv:2410.22261",
+    "page_number": 16,
+    "figure_number": -1,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum State Preparation",
+    "descriptions": [
+      "The function box_parallel_T generates the 7 parallel T gates in the middle of the circuit and the function box_cnot_circuit generates the initialization gates and the cnot circuits before the parallel T gates",
+      "We can use Proto-Quipper’s control operator to add an an extra control to the CCZ circuit",
+      "If instead, we program the CCZ circuit without using the withComputed operation, we will get an error when trying to control it"
+    ],
+    "text_positions": [
+      [
+        45113,
+        45436
+      ],
+      [
+        45495,
+        45585
+      ],
+      [
+        45792,
+        45953
+      ]
+    ]
+  },
+  "arXiv_2502.07892_page14_clusters2.png": {
+    "arxiv_number": "arXiv:2502.07892",
+    "page_number": 14,
+    "figure_number": -1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "The solid lines represent the results of a quantum fit to the data",
+      "The fitted value of nth matches the one estimated via the measurement of the Wigner function of the thermal state (Fig",
+      "The first line passes through a variable phase attenuator, with voltage Vatt, and the second through a variable phase shifter, with voltage Vφ"
+    ],
+    "text_positions": [
+      [
+        60301,
+        60368
+      ],
+      [
+        60717,
+        60836
+      ],
+      [
+        62828,
+        62971
+      ]
+    ]
+  },
+  "arXiv_2412.18007_page2_clusters1.png": {
+    "arxiv_number": "arXiv:2412.18007",
+    "page_number": 2,
+    "figure_number": -1,
+    "quantum_gates": [
+      "CZ",
+      "RX",
+      "RY",
+      "X",
+      "Y"
+    ],
+    "quantum_problem": "VQE - Variational Quantum Eigensolver",
+    "descriptions": [
+      "A significant part of the errors affecting quantum circuits, such as stochastic Pauli channels, lead to an increase of entropy",
+      "More importantly, we show how entropy density benchmarking bridges circuit-level and application- level benchmarking protocols, enabling us to derive more accurate thresholds than in [23] on the circuit size above which quantum advantage is unattain- able",
+      "Each circuit layer is composed of a single- qubit RX(θ) rotation followed by a RY (θ) rotation and a final layer of CZ gates between nearest neigh- bours"
+    ],
+    "text_positions": [
+      [
+        4819,
+        4946
+      ],
+      [
+        5934,
+        6190
+      ],
+      [
+        7932,
+        8086
+      ]
+    ]
+  },
+  "arXiv_2412.18007_page9_clusters1.png": {
+    "arxiv_number": "arXiv:2412.18007",
+    "page_number": 9,
+    "figure_number": -1,
+    "quantum_gates": [
+      "Measurement",
+      "SWAP"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "5a, the SWAP test circuit from [31] is applied to two copies of the quantum state of interest ρout",
+      "The measurement statistics of the upper qubit can be linked to the purity via Tr[ρ2 out] = P(i = 0) −P(i = 1)",
+      "5b, Bell state measurements between two copies of the quantum state of interest ρ allow to estimate its purity via some additional post-processing on the measurement statistics [32]: the measurement outcome i of the standard SWAP test protocol from Fig"
+    ],
+    "text_positions": [
+      [
+        31564,
+        31663
+      ],
+      [
+        31663,
+        31773
+      ],
+      [
+        31780,
+        32033
+      ]
+    ]
+  },
+  "arXiv_2412.18007_page17_clusters2.png": {
+    "arxiv_number": "arXiv:2412.18007",
+    "page_number": 17,
+    "figure_number": -1,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "arXiv_2503.03878_page4_clusters1.png": {
+    "arxiv_number": "arXiv:2503.03878",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Call I(C) the space spanned by vectors of the form V (C)†|β⟩∈N",
+      "Note that, since Cb|y[ ¯A] is an effect and its submatrix ¯ Mb|y is a projector, it follows that Cb|y( ¯A)I(C) ⊂I(C), see Appendix A for a proof",
+      "Thus we will call I(C) the invariant subspace of C"
+    ],
+    "text_positions": [
+      [
+        11700,
+        11782
+      ],
+      [
+        11782,
+        11927
+      ],
+      [
+        11927,
+        11978
+      ]
+    ]
+  },
+  "arXiv_2509.04761_page9_clusters1.png": {
+    "arxiv_number": "arXiv:2509.04761",
+    "page_number": 9,
+    "figure_number": 5,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "Optimized 1-step QPS circuit using Aqcel (a) w/o CX-pair removal and (b) w/ CX-pair removal. The"
+    ],
+    "text_positions": [
+      [
+        30062,
+        30211
+      ]
+    ]
+  },
+  "arXiv_2502.05362_page2_clusters2.png": {
+    "arxiv_number": "arXiv:2502.05362",
+    "page_number": 2,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The variable β specifies the relative crosstalk strength (βjk ≥0), θ is the relative crosstalk phase, and ϕk is a phase shift set by software [16]",
+      "This sim- plification allows a clear analysis of pair-wise cross-talk and its impact on quantum control",
+      "We denote measured qubit as a (j = a) and the other qubit as b (k = b)"
+    ],
+    "text_positions": [
+      [
+        5572,
+        5719
+      ],
+      [
+        6825,
+        6929
+      ],
+      [
+        6929,
+        7000
+      ]
+    ]
+  },
+  "arXiv_2503.13673_page11_clusters1.png": {
+    "arxiv_number": "arXiv:2503.13673",
+    "page_number": 11,
+    "figure_number": -1,
+    "quantum_gates": [
+      "Measurement",
+      "Y"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The best classical strategy succeeds with probability 8/9, but there is a perfect quantum strategy, assuming all operations are faultless",
+      "Following this procedure, their measurement outcomes will satisfy the criteria",
+      "Table 1: Measurement basis for Alice and Bob when they are assigned different indices"
+    ],
+    "text_positions": [
+      [
+        24637,
+        24775
+      ],
+      [
+        25173,
+        25252
+      ],
+      [
+        25252,
+        25395
+      ]
+    ]
+  },
+  "arXiv_2503.13673_page12_clusters1.png": {
+    "arxiv_number": "arXiv:2503.13673",
+    "page_number": 12,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "They then locally perform the circuit and measurements above",
+      "Upon comparing the 4 measurement results, if all of them agree, they keep the first ebit; otherwise, discard",
+      "Given the local physical error rate ϵ, we have that the infidelity after one round of purification being"
+    ],
+    "text_positions": [
+      [
+        26697,
+        26758
+      ],
+      [
+        26758,
+        26867
+      ],
+      [
+        26867,
+        27135
+      ]
+    ]
+  },
+  "arXiv_2503.13673_page14_clusters2.png": {
+    "arxiv_number": "arXiv:2503.13673",
+    "page_number": 14,
+    "figure_number": 6,
+    "quantum_gates": [
+      "CNOT",
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "We will outline the implementation under the fault-tolerant construction and subsequently provide an analysis of the logical error rate for ebit(k) prepared",
+      "(b)The circuit for performing a CNOT with one ebit and local operations",
+      "The first and last qubits are the independent qubits we hope to perform CNOT on with the first being control and the last being target"
+    ],
+    "text_positions": [
+      [
+        33115,
+        33272
+      ],
+      [
+        33502,
+        33574
+      ],
+      [
+        33574,
+        33709
+      ]
+    ]
+  },
+  "arXiv_2503.13673_page19_clusters1.png": {
+    "arxiv_number": "arXiv:2503.13673",
+    "page_number": 19,
+    "figure_number": 9,
+    "quantum_gates": [],
+    "quantum_problem": "Quantum Circuit Simulation",
+    "descriptions": [
+      "The circuit is essentially teleportation of a physical state into the logical space",
+      "We denote the interface from level-0 to level-1 (1 qubit →7 qubits in [7, 1, 3]) by Enc0→1",
+      "Note that we modified the original circuit by using an ancillary qubit to verify the validity of the prepared |Ω⟩= 1 √"
+    ],
+    "text_positions": [
+      [
+        41562,
+        41698
+      ],
+      [
+        41698,
+        41789
+      ],
+      [
+        42042,
+        42183
+      ]
+    ]
+  },
+  "arXiv_2503.13673_page42_clusters1.png": {
+    "arxiv_number": "arXiv:2503.13673",
+    "page_number": 42,
+    "figure_number": 18,
+    "quantum_gates": [
+      "CNOT",
+      "Z"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "and logical operators X = X⊗7, Z = Z⊗7 The property that it’s a perfect code makes it intriguing and this implies a simple decoding procedure and the fact that it’s a CSS code implies that transversal CNOT can be implemented with CNOT⊗n",
+      "Note that there is an additional ancilla qubit which is used for catching bit flip errors occurred during preparation",
+      "In this way the encoding circuit is fault-tolerant"
+    ],
+    "text_positions": [
+      [
+        90118,
+        90422
+      ],
+      [
+        90848,
+        90966
+      ],
+      [
+        91122,
+        91173
+      ]
+    ]
+  },
+  "arXiv_2503.13673_page42_clusters2.png": {
+    "arxiv_number": "arXiv:2503.13673",
+    "page_number": 42,
+    "figure_number": 19,
+    "quantum_gates": [
+      "CNOT",
+      "Z"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "Note that there is an additional ancilla qubit which is used for catching bit flip errors occurred during preparation",
+      "In this way the encoding circuit is fault-tolerant",
+      "|+⟩can be analogously prepared, by reversing the CNOT gates and interchanging |0⟩and |+⟩"
+    ],
+    "text_positions": [
+      [
+        90848,
+        90966
+      ],
+      [
+        91122,
+        91173
+      ],
+      [
+        91173,
+        91262
+      ]
+    ]
+  },
+  "arXiv_2503.13673_page43_clusters2.png": {
+    "arxiv_number": "arXiv:2503.13673",
+    "page_number": 43,
+    "figure_number": 20,
+    "quantum_gates": [
+      "CNOT",
+      "CZ",
+      "Measurement"
+    ],
+    "quantum_problem": "Shor's Algorithm",
+    "descriptions": [
+      "When we perform non-destructive measurements in this work, we resort to Shor’s style syndrome measurement",
+      "To make the preparation of the cat state fault-tolerant, we have an ancilla qubit",
+      "However, sometimes a single qubit error from the ancilla can still cause"
+    ],
+    "text_positions": [
+      [
+        92722,
+        92864
+      ],
+      [
+        92920,
+        93002
+      ],
+      [
+        93483,
+        93558
+      ]
+    ]
+  },
+  "arXiv_2510.21075_page6_clusters1.png": {
+    "arxiv_number": "arXiv:2510.21075",
+    "page_number": 6,
+    "figure_number": 3,
+    "quantum_gates": [
+      "S",
+      "X",
+      "Y"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "trivially extend it to the more general form in Eq",
+      "(8) by allowing the noise to act non-locally and producing more system channels in each of the clusters in Fig",
+      "9: Encode s on the quantum circuit using Pauli gates 10: Compute the effective channel resulting from the prob- abilistic composition of the Pauli gates with the intrinsic noise channels"
+    ],
+    "text_positions": [
+      [
+        25531,
+        25582
+      ],
+      [
+        25582,
+        25693
+      ],
+      [
+        27688,
+        27875
+      ]
+    ]
+  },
+  "arXiv_2504.08605_page18_clusters1.png": {
+    "arxiv_number": "arXiv:2504.08605",
+    "page_number": 18,
+    "figure_number": -1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "where σi are the usual Pauli matrices and σ0 is the identity",
+      "2(a) and the two measurement time points t1 = 5",
+      "Then the witness parameters listed in Tables I and II detect quantum memory with ⟨W⟩E(t)(t2, t1) < −0"
+    ],
+    "text_positions": [
+      [
+        65705,
+        65770
+      ],
+      [
+        65845,
+        65893
+      ],
+      [
+        65930,
+        66032
+      ]
+    ]
+  },
+  "arXiv_2503.02272_page5_clusters1.png": {
+    "arxiv_number": "arXiv:2503.02272",
+    "page_number": 5,
+    "figure_number": 5,
+    "quantum_gates": [
+      "CNOT",
+      "CZ",
+      "Hadamard",
+      "RX",
+      "RZ",
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "Quantum Circuit Simulation",
+    "descriptions": [
+      "5 (b), the target qubit of all CX gates in the proposed fountain- shaped chain structure is 0𝐿in common",
+      "Note that two con- secutive Hadamard gates become the identity operation since the Hadamard operator is a Hermitian matrix [58]",
+      "4, (b) CZ-based Implementation of the circuit of (a), (c) Describing the gate cancellation process of H gates in the fountain CZ chain, and (d) A possible AOD trap movement for CZ chain"
+    ],
+    "text_positions": [
+      [
+        21843,
+        21947
+      ],
+      [
+        21947,
+        22075
+      ],
+      [
+        22582,
+        22768
+      ]
+    ]
+  },
+  "arXiv_2502.15464_page15_clusters1.png": {
+    "arxiv_number": "arXiv:2502.15464",
+    "page_number": 15,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "In this appendix, we provide a complete list of spin-adapted GPCs for various settings (N, d, S, M) solved so far",
+      "For S = 0, there are no spin-adapted GPCs beyond the Pauli exclusion principle",
+      "Moreover, for (N, S) = (2, 1/2) the only constraints are the Pauli exclusion principle λ(l) 1 ≤2 and the correct normalization Pd i=1 λ(l) i = N"
+    ],
+    "text_positions": [
+      [
+        57561,
+        57708
+      ],
+      [
+        57966,
+        58045
+      ],
+      [
+        58045,
+        58190
+      ]
+    ]
+  },
+  "arXiv_2407.12652_page12_clusters1.png": {
+    "arxiv_number": "arXiv:2407.12652",
+    "page_number": 12,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "where U is independent of the wrapping, and N N Λ0 denotes the neighbourhood of Λ0 for T N",
+      "This is implemented over the wrapped lattice as a uni- tary matrix (see eq",
+      "Since T and Tw share the same local rule, we then have"
+    ],
+    "text_positions": [
+      [
+        40638,
+        40823
+      ],
+      [
+        41183,
+        41258
+      ],
+      [
+        41304,
+        41435
+      ]
+    ]
+  },
+  "arXiv_2407.12652_page12_clusters2.png": {
+    "arxiv_number": "arXiv:2407.12652",
+    "page_number": 12,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "This is implemented over the wrapped lattice as a uni- tary matrix (see eq",
+      "Since T and Tw share the same local rule, we then have"
+    ],
+    "text_positions": [
+      [
+        41183,
+        41258
+      ],
+      [
+        41304,
+        41435
+      ]
+    ]
+  },
+  "arXiv_2407.12652_page17_clusters1.png": {
+    "arxiv_number": "arXiv:2407.12652",
+    "page_number": 17,
+    "figure_number": -1,
+    "quantum_gates": [
+      "T"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "In the following we prove that, if eq",
+      "(76) holds for a given uni- tary index QCA, that QCA can only be renor- malised into a QCA with non-unitary index",
+      "A qubit QCA that is renormalisable only admits unit index renormalisations"
+    ],
+    "text_positions": [
+      [
+        53940,
+        53978
+      ],
+      [
+        54087,
+        54201
+      ],
+      [
+        55709,
+        55784
+      ]
+    ]
+  },
+  "arXiv_2410.08940_page9_clusters1.png": {
+    "arxiv_number": "arXiv:2410.08940",
+    "page_number": 9,
+    "figure_number": -1,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "In panel a) we note for reference the sign of Jij for three different mutual orientations of dipoles i and j",
+      "In panel b) we place parallel dipoles (an H-aggregate) near a plane with permittivity ε and construct the corresponding image charge problem (ignoring the self-interaction of dipole j with its own image as it is irrelevant to the coupling to dipole i)"
+    ],
+    "text_positions": [
+      [
+        37682,
+        37791
+      ],
+      [
+        37791,
+        38043
+      ]
+    ]
+  },
+  "arXiv_2509.04530_page16_clusters1.png": {
+    "arxiv_number": "arXiv:2509.04530",
+    "page_number": 16,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Step 4 (Closing the equations and solving for a)",
+      "The previous steps have generated a system of linear equations relating the elements of the covariance matrix",
+      "The final task is to solve this system for the key cross-correlation term a = ⟨δQδX⟩"
+    ],
+    "text_positions": [
+      [
+        38592,
+        38647
+      ],
+      [
+        38647,
+        38757
+      ],
+      [
+        38757,
+        38842
+      ]
+    ]
+  },
+  "arXiv_2408.10054_page50_clusters1.png": {
+    "arxiv_number": "arXiv:2408.10054",
+    "page_number": 50,
+    "figure_number": 19,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "180:50 Zhicheng Zhang and Mingsheng Ying",
+      "So, we simply apply the QRAM fetch unitary 𝑈fet(ins, pc, mem) defined in Definition 3",
+      "(2) (Decode & Execute): In this stage, we decode the current instruction in ins, and execute it by applying the unitary"
+    ],
+    "text_positions": [
+      [
+        175203,
+        175260
+      ],
+      [
+        176290,
+        176376
+      ],
+      [
+        176378,
+        176569
+      ]
+    ]
+  },
+  "arXiv_2409.17103_page7_clusters1.png": {
+    "arxiv_number": "arXiv:2409.17103",
+    "page_number": 7,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "Suppose ϕ is a homeomorphism on Sn",
+      "When n = 0, S0 has two points with opposite orientations",
+      "The only orientation preserving homeomorphism is the identity"
+    ],
+    "text_positions": [
+      [
+        18016,
+        18051
+      ],
+      [
+        18051,
+        18108
+      ],
+      [
+        18108,
+        18170
+      ]
+    ]
+  },
+  "arXiv_2409.17103_page22_clusters1.png": {
+    "arxiv_number": "arXiv:2409.17103",
+    "page_number": 22,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "For any x ∈VS above, we define its trace as",
+      "Then for any x, y ∈VS, we have",
+      "It follows from isotopy around S1, similar to the case n = 1"
+    ],
+    "text_positions": [
+      [
+        52916,
+        52991
+      ],
+      [
+        53007,
+        53068
+      ],
+      [
+        53074,
+        53135
+      ]
+    ]
+  },
+  "arXiv_2409.17103_page23_clusters1.png": {
+    "arxiv_number": "arXiv:2409.17103",
+    "page_number": 23,
+    "figure_number": 5,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "We consider Dn−k × Dk−1 as Dn−1, then by Prop",
+      "6, ˜VS,−is an associate algebra",
+      "The commutativity for k ≥2 follows from switching two smaller k-discs in Dk by isotopy in Fig"
+    ],
+    "text_positions": [
+      [
+        54497,
+        54543
+      ],
+      [
+        54545,
+        54577
+      ],
+      [
+        54577,
+        54671
+      ]
+    ]
+  },
+  "arXiv_2409.17103_page26_clusters1.png": {
+    "arxiv_number": "arXiv:2409.17103",
+    "page_number": 26,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "If x is a null vector, then Ax is a null vector",
+      "So the multiplication is well defined for",
+      "For any interior homeomorphism ϕ on Dk × (Dn−k \\ 1"
+    ],
+    "text_positions": [
+      [
+        60975,
+        61043
+      ],
+      [
+        61043,
+        61128
+      ],
+      [
+        61189,
+        61278
+      ]
+    ]
+  },
+  "arXiv_2409.17103_page27_clusters1.png": {
+    "arxiv_number": "arXiv:2409.17103",
+    "page_number": 27,
+    "figure_number": 6,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The annular action induced by the bimodule",
+      "Suppose ϕ : D1 →D0 is a homeomorphism fixing the boundary",
+      "Then they are isotopic by Alexander’s trick, through ϕt, t ∈[0, 1], in Equ"
+    ],
+    "text_positions": [
+      [
+        62858,
+        62901
+      ],
+      [
+        62901,
+        62959
+      ],
+      [
+        62959,
+        63034
+      ]
+    ]
+  },
+  "arXiv_2409.17103_page30_clusters1.png": {
+    "arxiv_number": "arXiv:2409.17103",
+    "page_number": 30,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "As Z is homeomorphic invariant on Sn, so Z(ϕ(B)) is independent of the choice of ϕ",
+      "When B is a union of Bi, |Bi| ∼Dn+1, we define",
+      "we remove Dk−1 × εDn−k+1 and Dk−1 × [ε, 1] × ε′Dn−k, then the result D+ is homeomorphic to Dn+1"
+    ],
+    "text_positions": [
+      [
+        71892,
+        71975
+      ],
+      [
+        71990,
+        72054
+      ],
+      [
+        72097,
+        72193
+      ]
+    ]
+  },
+  "arXiv_2409.17103_page46_clusters1.png": {
+    "arxiv_number": "arXiv:2409.17103",
+    "page_number": 46,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "We can evaluate the partition function Z(S) by these three relations in terms of group elements, and then derive that",
+      "Then we obtain the Mednykh’s formula [42]:"
+    ],
+    "text_positions": [
+      [
+        109483,
+        109712
+      ],
+      [
+        109712,
+        109801
+      ]
+    ]
+  },
+  "arXiv_2410.03345_page12_clusters1.png": {
+    "arxiv_number": "arXiv:2410.03345",
+    "page_number": 12,
+    "figure_number": 7,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The quantum state fidelity of a state ˆρ to a pure target state |ψ⟩can be calculated as",
+      "The matrix E is called the process matrix of the error"
+    ],
+    "text_positions": [
+      [
+        54982,
+        55120
+      ],
+      [
+        56235,
+        56290
+      ]
+    ]
+  },
+  "arXiv_2410.03345_page14_clusters2.png": {
+    "arxiv_number": "arXiv:2410.03345",
+    "page_number": 14,
+    "figure_number": 14,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "an MPO representation of the linear cluster state in the Pauli basis is obtained as",
+      "This shows that the MPO representation of an ideal clus- ter state has a bond dimension of D = 4",
+      "Here, we show diagrammatically that the protocol im- plemented by the pulse sequence in Fig"
+    ],
+    "text_positions": [
+      [
+        60428,
+        60665
+      ],
+      [
+        60752,
+        60855
+      ],
+      [
+        60855,
+        61006
+      ]
+    ]
+  },
+  "arXiv_2410.03345_page24_clusters1.png": {
+    "arxiv_number": "arXiv:2410.03345",
+    "page_number": 24,
+    "figure_number": 24,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "and the corresponding post-measurement state of the un- measured qubits is"
+    ],
+    "text_positions": [
+      [
+        98395,
+        98563
+      ]
+    ]
+  },
+  "arXiv_2505.21921_page13_clusters2.png": {
+    "arxiv_number": "arXiv:2505.21921",
+    "page_number": 12,
+    "figure_number": -1,
+    "quantum_gates": [
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The interaction strengths are drawn uniformly from [−1, 1]",
+      "The color of each dot represents the density of surrounding data points",
+      "All the scar states are degenerate and we are unable to distinguish them in the plot"
+    ],
+    "text_positions": [
+      [
+        23749,
+        23808
+      ],
+      [
+        23808,
+        23880
+      ],
+      [
+        23880,
+        23965
+      ]
+    ]
+  },
+  "arXiv_2405.00047_page23_clusters1.png": {
+    "arxiv_number": "arXiv:2405.00047",
+    "page_number": 23,
+    "figure_number": -1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Graphical Abstract"
+    ],
+    "text_positions": [
+      [
+        29365,
+        29386
+      ]
+    ]
+  },
+  "arXiv_2503.22107_page21_clusters1.png": {
+    "arxiv_number": "arXiv:2503.22107",
+    "page_number": 21,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Hadamard"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "additional ancillas are used to measure syndromes and flags in the first flagged syndrome extraction",
+      "syndromes are used for the second flagged syndrome extraction circuit (Fig",
+      "non-trivial syndromes, all ancilla qubits are reset and then eight of them are used to extract all the"
+    ],
+    "text_positions": [
+      [
+        41571,
+        41777
+      ],
+      [
+        41780,
+        41939
+      ],
+      [
+        41942,
+        42088
+      ]
+    ]
+  },
+  "arXiv_2503.22107_page22_clusters1.png": {
+    "arxiv_number": "arXiv:2503.22107",
+    "page_number": 22,
+    "figure_number": 6,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "seen in Figs",
+      "Rather than implementing a lookup table for each of the 512"
+    ],
+    "text_positions": [
+      [
+        43328,
+        43341
+      ],
+      [
+        43360,
+        43522
+      ]
+    ]
+  },
+  "arXiv_2503.22107_page23_clusters1.png": {
+    "arxiv_number": "arXiv:2503.22107",
+    "page_number": 23,
+    "figure_number": 7,
+    "quantum_gates": [
+      "Y"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "syndrome corresponding to stabilizer 𝑠0 = ¯𝑋0 ¯𝑍1 ¯𝑍2 ¯𝑋3 = 𝑋0𝑋1𝑍2𝑍4𝑋6𝑋7 of the [[10,1,4]] code",
+      "Unflagged circuit for extracting the syndrome corresponding to 𝑠1 = ¯𝑋1 ¯𝑍2 ¯𝑍3 ¯𝑋4 = 𝑋2𝑋3𝑍4𝑍6𝑋8𝑋9"
+    ],
+    "text_positions": [
+      [
+        44920,
+        45057
+      ],
+      [
+        45057,
+        45160
+      ]
+    ]
+  },
+  "arXiv_2503.22107_page24_clusters1.png": {
+    "arxiv_number": "arXiv:2503.22107",
+    "page_number": 24,
+    "figure_number": 8,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "syndrome corresponding to stabilizer 𝑠2 = ¯𝑋0 ¯𝑋2 ¯𝑍3 ¯𝑍4 = 𝑋0𝑋1𝑋4𝑋5𝑍6𝑍8 of the [[10,1,4]] code",
+      "Unflagged circuit for extracting the syndrome corresponding to 𝑠3 = ¯𝑍0 ¯𝑋1 ¯𝑋3 ¯𝑋4 = 𝑍0𝑋2𝑋3𝑋6𝑋7𝑍8"
+    ],
+    "text_positions": [
+      [
+        46779,
+        46916
+      ],
+      [
+        46916,
+        47019
+      ]
+    ]
+  },
+  "arXiv_2503.22107_page25_clusters1.png": {
+    "arxiv_number": "arXiv:2503.22107",
+    "page_number": 25,
+    "figure_number": 9,
+    "quantum_gates": [
+      "Hadamard"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "circuit fault-tolerantly extracts the syndromes for the five stabilizers of the [[10,1,4]] code inherited",
+      "Note that since the circuit is measuring the positive products of 𝑍s, 𝑍𝑖𝑍𝑖+1, the"
+    ],
+    "text_positions": [
+      [
+        48567,
+        48861
+      ],
+      [
+        48945,
+        49088
+      ]
+    ]
+  },
+  "arXiv_2508.10666_page114_clusters1.png": {
+    "arxiv_number": "arXiv:2508.10666",
+    "page_number": 114,
+    "figure_number": 4,
+    "quantum_gates": [
+      "Hadamard"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "3: One-qubit circuit with rotation gate ˆR(θ) and its Unitary form."
+    ],
+    "text_positions": [
+      [
+        231355,
+        231422
+      ]
+    ]
+  },
+  "arXiv_2508.10666_page116_clusters1.png": {
+    "arxiv_number": "arXiv:2508.10666",
+    "page_number": 116,
+    "figure_number": 4,
+    "quantum_gates": [
+      "CNOT",
+      "SWAP",
+      "U"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "5: The CNOT, SWAP and C-U gates and their matrix form in the com- putational basis",
+      "As its name suggests, the SWAP gate swaps the two qubits it acts on",
+      "The C-U gate applies the one-qubit unitary U if and only if the control qubit is in the state |1⟩"
+    ],
+    "text_positions": [
+      [
+        235292,
+        235375
+      ],
+      [
+        235375,
+        235443
+      ],
+      [
+        235443,
+        235541
+      ]
+    ]
+  },
+  "arXiv_2508.10666_page116_clusters2.png": {
+    "arxiv_number": "arXiv:2508.10666",
+    "page_number": 116,
+    "figure_number": 4,
+    "quantum_gates": [
+      "CNOT",
+      "SWAP",
+      "U"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "6: A three-qubit unitary gate in quantum circuit notation."
+    ],
+    "text_positions": [
+      [
+        235569,
+        235627
+      ]
+    ]
+  },
+  "arXiv_2508.10666_page117_clusters1.png": {
+    "arxiv_number": "arXiv:2508.10666",
+    "page_number": 117,
+    "figure_number": 4,
+    "quantum_gates": [
+      "CNOT",
+      "Hadamard"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "7: Quantum circuit to create a Bell state |Φ+⟩. First a Hadamard is"
+    ],
+    "text_positions": [
+      [
+        236513,
+        236560
+      ]
+    ]
+  },
+  "arXiv_2508.10666_page148_clusters1.png": {
+    "arxiv_number": "arXiv:2508.10666",
+    "page_number": 148,
+    "figure_number": 5,
+    "quantum_gates": [],
+    "quantum_problem": "VQE - Variational Quantum Eigensolver",
+    "descriptions": [
+      "6: An N-qubit parametric quantum circuit realised by applying an"
+    ],
+    "text_positions": [
+      [
+        301506,
+        301601
+      ]
+    ]
+  },
+  "arXiv_2508.10666_page150_clusters1.png": {
+    "arxiv_number": "arXiv:2508.10666",
+    "page_number": 150,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "VQE - Variational Quantum Eigensolver",
+    "descriptions": [
+      "7: Four example block structures for an N-qubit variational circuit with (a) and (b) based on Tensor Networks and (c) and (d) based on alternating layers",
+      "Each white box corresponds to a Unitary transform over the number of wires it connects",
+      "For example, a white box connecting three wires corresponds to a three-qubit unitary, ˆU ∈SU(8)"
+    ],
+    "text_positions": [
+      [
+        304639,
+        304793
+      ],
+      [
+        304793,
+        304880
+      ],
+      [
+        304880,
+        304976
+      ]
+    ]
+  },
+  "arXiv_2508.10666_page151_clusters1.png": {
+    "arxiv_number": "arXiv:2508.10666",
+    "page_number": 151,
+    "figure_number": 5,
+    "quantum_gates": [],
+    "quantum_problem": "VQE - Variational Quantum Eigensolver",
+    "descriptions": [
+      "On the left we see a three qubit gate decomposed into three two-qubit gates in sequence",
+      "The universality of two-qubit gates means these are the smallest “building blocks” we need in order to construct larger unitary transforms",
+      "On the other hand, different quantum hardware have different universal gate sets, and usually dictate the structure of a block decomposition should we want it to be efficient (we usually do)"
+    ],
+    "text_positions": [
+      [
+        305525,
+        305613
+      ],
+      [
+        305816,
+        305955
+      ],
+      [
+        305955,
+        306146
+      ]
+    ]
+  },
+  "arXiv_2508.10666_page172_clusters1.png": {
+    "arxiv_number": "arXiv:2508.10666",
+    "page_number": 172,
+    "figure_number": 5,
+    "quantum_gates": [
+      "S",
+      "U"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "15: The simplest dynamical Hamiltonian Learning problem referred to as the white-box scenario",
+      "Here, we assume that we are given access to a box which contains the true Hamiltonian where dynamics of states being acted on by this Hamiltonian are unitary",
+      "We also assume that we know which Pauli strings have non-zero coefficients"
+    ],
+    "text_positions": [
+      [
+        347218,
+        347312
+      ],
+      [
+        347312,
+        347470
+      ],
+      [
+        347470,
+        347545
+      ]
+    ]
+  },
+  "arXiv_2508.10666_page178_clusters1.png": {
+    "arxiv_number": "arXiv:2508.10666",
+    "page_number": 178,
+    "figure_number": 5,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "16: Architectures of the models used to simulate the time evolution of the parametrised Hamiltonian ˆH(θ)",
+      "(a) The numerically exact time evolution under the Hamiltonian",
+      "(b) The approximate time evolution through integrating the Schrödinger equation, hereby referred to as the vanilla model"
+    ],
+    "text_positions": [
+      [
+        361479,
+        361585
+      ],
+      [
+        361585,
+        361648
+      ],
+      [
+        361648,
+        361769
+      ]
+    ]
+  },
+  "arXiv_2503.14696_page5_clusters1.png": {
+    "arxiv_number": "arXiv:2503.14696",
+    "page_number": 5,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "VQE - Variational Quantum Eigensolver",
+    "descriptions": [
+      "more efficiently by analyzing the sample variance of the quantum loss function [9, 24]",
+      "Consider the exact loss function L(θ), parameterized by θ ∈Rn",
+      "To ensure consistent quantitative compar- isons of the loss variance across different system sizes, this function must be normalized, as suggested in [24]:"
+    ],
+    "text_positions": [
+      [
+        23106,
+        23343
+      ],
+      [
+        23343,
+        23405
+      ],
+      [
+        23405,
+        23617
+      ]
+    ]
+  },
+  "arXiv_2503.14696_page5_clusters2.png": {
+    "arxiv_number": "arXiv:2503.14696",
+    "page_number": 5,
+    "figure_number": 2,
+    "quantum_gates": [
+      "Hadamard",
+      "Measurement",
+      "RY",
+      "U",
+      "Z"
+    ],
+    "quantum_problem": "VQE - Variational Quantum Eigensolver",
+    "descriptions": [
+      "more efficiently by analyzing the sample variance of the quantum loss function [9, 24]",
+      "Consider the exact loss function L(θ), parameterized by θ ∈Rn",
+      "4, we illustrate the scaling of variances across three different VQA ansatzes: a conventional QAOA implementation from Qiskit, a hardware-efficient two- local VQE ansatz, consisting of one rotational layer and one linear entangling layer, and the BENQO algorithm (cf"
+    ],
+    "text_positions": [
+      [
+        23106,
+        23343
+      ],
+      [
+        23343,
+        23405
+      ],
+      [
+        23950,
+        24217
+      ]
+    ]
+  },
+  "arXiv_2506.10873_page21_clusters1.png": {
+    "arxiv_number": "arXiv:2506.10873",
+    "page_number": 21,
+    "figure_number": 5,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "k σz k coupled to a common environment according to L = √",
+      "To explicitly demonstrate the implications on the be- havior of quantum trajectories, we choose as an initial state the coherent product state [111]",
+      "As a result, measurement-induced oscillations occur with an average increased amplitude, at the expense of randomized phases, cf"
+    ],
+    "text_positions": [
+      [
+        97178,
+        97274
+      ],
+      [
+        99691,
+        99927
+      ],
+      [
+        100819,
+        100948
+      ]
+    ]
+  },
+  "arXiv_2506.10873_page24_clusters1.png": {
+    "arxiv_number": "arXiv:2506.10873",
+    "page_number": 24,
+    "figure_number": 9,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "To quantify the quantum coherence be- tween the scar states in the asymptotic regime, we em- ploy the l1-norm of coherence [124]",
+      "In particular, we project the uniform superposition in the z-basis onto the decaying subspace"
+    ],
+    "text_positions": [
+      [
+        113630,
+        113784
+      ],
+      [
+        113895,
+        114078
+      ]
+    ]
+  },
+  "arXiv_2506.10873_page29_clusters1.png": {
+    "arxiv_number": "arXiv:2506.10873",
+    "page_number": 29,
+    "figure_number": 13,
+    "quantum_gates": [
+      "T"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Subspaces are indicated by rectangles and arrows indicate flow between them",
+      "Algorithm 1 outputs a unitary transformation T, that simultaneously block-diagonalizes the Hamilto- nian and the Lindblad jump operators",
+      "α Hα of orthogonal sub- spaces Hα, each with an asymptotic subspace Rα that may still have a decaying subspace Dα attached to it"
+    ],
+    "text_positions": [
+      [
+        135005,
+        135081
+      ],
+      [
+        137044,
+        137363
+      ],
+      [
+        137844,
+        138075
+      ]
+    ]
+  },
+  "arXiv_2510.15067_page20_clusters1.png": {
+    "arxiv_number": "arXiv:2510.15067",
+    "page_number": 20,
+    "figure_number": 6,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Graphical representation of Csum operator, built by contracting the fusion tensor N with its copy tensor",
+      "The modular transformation S is applied along each outgoing leg of N, with S† applied along the single incoming leg"
+    ],
+    "text_positions": [
+      [
+        36749,
+        36854
+      ],
+      [
+        36854,
+        36970
+      ]
+    ]
+  },
+  "arXiv_2510.15067_page20_clusters2.png": {
+    "arxiv_number": "arXiv:2510.15067",
+    "page_number": 20,
+    "figure_number": 7,
+    "quantum_gates": [],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "Graphical representation of Csum operator, built by contracting the fusion tensor N with its copy tensor",
+      "The modular transformation S is applied along each outgoing leg of N, with S† applied along the single incoming leg",
+      "4), when d is even an additional phase gate is applied to the outgoing leg of the contracted tensors"
+    ],
+    "text_positions": [
+      [
+        36749,
+        36854
+      ],
+      [
+        36854,
+        36970
+      ],
+      [
+        37097,
+        37198
+      ]
+    ]
+  },
+  "arXiv_2404.16962_page13_clusters1.png": {
+    "arxiv_number": "arXiv:2404.16962",
+    "page_number": 13,
+    "figure_number": -1,
+    "quantum_gates": [
+      "Hadamard",
+      "Measurement",
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Z) of the Rydberg atom platform. The ancilla qubit, initialized in the |0⟩ancilla state, is sequentially entangled with"
+    ],
+    "text_positions": [
+      [
+        50546,
+        50677
+      ]
+    ]
+  },
+  "arXiv_2408.03315_page34_clusters1.png": {
+    "arxiv_number": "arXiv:2408.03315",
+    "page_number": 34,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "arXiv_2506.10539_page6_clusters1.png": {
+    "arxiv_number": "arXiv:2506.10539",
+    "page_number": 6,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Visual representation of the research questions",
+      "The top path diagram illustrates RQ1, examining the direct relationships between the variables",
+      "Following our research questions, we performed an online experiment"
+    ],
+    "text_positions": [
+      [
+        15795,
+        15843
+      ],
+      [
+        15843,
+        15939
+      ],
+      [
+        16101,
+        16184
+      ]
+    ]
+  },
+  "arXiv_2502.09739_page15_clusters1.png": {
+    "arxiv_number": "arXiv:2502.09739",
+    "page_number": 15,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "Note that in these plots, COF has been normalised to the same scale as Sl for the ease of comparison",
+      "dominates at late-times and leads to complete decoherence of the system quantum field",
+      "The second feature to note is that the linear entropy, corresponding to smaller momentum-field coupling, crosses over that for a larger value of ρ during this late-time phase once decoherence takes over8"
+    ],
+    "text_positions": [
+      [
+        32315,
+        32416
+      ],
+      [
+        32466,
+        32552
+      ],
+      [
+        33192,
+        33396
+      ]
+    ]
+  },
+  "arXiv_2403.02405_page12_clusters1.png": {
+    "arxiv_number": "arXiv:2403.02405",
+    "page_number": 12,
+    "figure_number": 6,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "In the main text, we mentioned that one of the reasons we choose to work with FRQI states is that we empiri- cally find them to be more accurately classified compared to other data encoding methods such as amplitude en- coding or the NEQR",
+      "We consider 3 different encodings, namely amplitude encoding [9, 21, 27], the FRQI [49] and the NEQR [52]",
+      "Amplitude encoding is the simplest form of mapping the data to a quantum state, by simply choosing the amplitudes of a 2n-qubit state proportional to the pixel values and then normalizing the state, i"
+    ],
+    "text_positions": [
+      [
+        50359,
+        50641
+      ],
+      [
+        51309,
+        51415
+      ],
+      [
+        51676,
+        51877
+      ]
+    ]
+  },
+  "arXiv_2506.20724_page2_clusters1.png": {
+    "arxiv_number": "arXiv:2506.20724",
+    "page_number": 2,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "two-dimensional geometry of the resource stabilizer state that allows the implementation of any quantum circuit via single-qudit measurements only",
+      "Second, we estimate the overhead for the measurement-based implementation of arbitrary single-qudit unitaries and provide qutrit re- source states that allow for more efficient quantum infor- mation processing than the qutrit cluster state",
+      "II, we dis- cuss the general setting of measurement-based quantum computing, in Sec"
+    ],
+    "text_positions": [
+      [
+        6189,
+        6336
+      ],
+      [
+        6483,
+        6723
+      ],
+      [
+        6878,
+        6962
+      ]
+    ]
+  },
+  "arXiv_2506.20724_page9_clusters1.png": {
+    "arxiv_number": "arXiv:2506.20724",
+    "page_number": 9,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Hadamard",
+      "Measurement",
+      "X"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "4, we show how a single- qubit unitary would be realized in the simplest case, where the Pauli order of GI is two, via four measure- ments",
+      "Here, oP GI is the Pauli order of the intrinsic gate GI, so the power that yields a Pauli operator up to a phase, allowing to obtain the inverse G† I via exponentia- tion of GI",
+      "Using the decomposition from above, we additionally derive an upper bound on the length of the measurement pattern required to realize any single-qudit unitary up to a Pauli by-product, namely oP GId"
+    ],
+    "text_positions": [
+      [
+        37329,
+        37468
+      ],
+      [
+        37468,
+        37645
+      ],
+      [
+        37645,
+        37845
+      ]
+    ]
+  },
+  "arXiv_2506.20724_page12_clusters1.png": {
+    "arxiv_number": "arXiv:2506.20724",
+    "page_number": 12,
+    "figure_number": 7,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "However, a non-trivial C2 gate that does not commute with P disturbs the commutation of two en- tangling gates on the same target",
+      "For instance, in case of an entangling qubit interaction (I ⊗H)CZ, applying the gate twice on the same control and target results in the entangling gate CXZ, for which we can use the previous controlled-Pauli strategy",
+      "7 allows the cut out of one- dimensional chains for single-qudit gate implementation as well as the implementation of the Clifford entangling gate (S ⊗S)CZ, similar to Fig"
+    ],
+    "text_positions": [
+      [
+        52576,
+        52706
+      ],
+      [
+        53313,
+        53531
+      ],
+      [
+        53558,
+        53730
+      ]
+    ]
+  },
+  "arXiv_2403.19610_page36_clusters1.png": {
+    "arxiv_number": "arXiv:2403.19610",
+    "page_number": 36,
+    "figure_number": 7,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Intrigu- ingly, this missing phase corresponds to ED states, where magic scales sub-extensively with entanglement",
+      "More precisely, we establish analytically that for a hybrid quantum circuit to exhibit entanglement-dominated states, the probability of applying T gates must vanish exponentially with n",
+      "In particular, we consider a hybrid quantum circuit composed of layers of random global Clifford circuits interleaving the application of Rz(θ) gates (with random θ) and measurements in the computational basis (see Fig"
+    ],
+    "text_positions": [
+      [
+        150561,
+        150675
+      ],
+      [
+        150799,
+        150986
+      ],
+      [
+        151731,
+        151950
+      ]
+    ]
+  },
+  "arXiv_2507.22874_page6_clusters1.png": {
+    "arxiv_number": "arXiv:2507.22874",
+    "page_number": 6,
+    "figure_number": -1,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "tunneling amplitudes [37], to reach a phase with well-defined χ2,3",
+      "We emphasize that these atomic limit Dirac strings per- sist in the system as tunnelings are continuously intro- duced, such that the overall measured Zak phase corre- sponds to both the orbital and the intrinsic band con- tributions stemming from band inversions [37]",
+      "Con- sequently, a given phase of an Euler system with non- trivial BZBCs will have to be compared with the refer- ence atomic limit to distinguish the orbital and band con- tributions of Zak phase measurements (see also Ref"
+    ],
+    "text_positions": [
+      [
+        27240,
+        27307
+      ],
+      [
+        27963,
+        28232
+      ],
+      [
+        28232,
+        28456
+      ]
+    ]
+  },
+  "arXiv_2508.12858_page2_clusters1.png": {
+    "arxiv_number": "arXiv:2508.12858",
+    "page_number": 2,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Hadamard"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "arXiv_2508.12858_page4_clusters1.png": {
+    "arxiv_number": "arXiv:2508.12858",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "requires Ω \u0000 2n/4\u0001 copies to decide, with success probability at least 2/3, whether ρ is entangled",
+      "Application in inverting quantum channel"
+    ],
+    "text_positions": [
+      [
+        14426,
+        14524
+      ],
+      [
+        16274,
+        16358
+      ]
+    ]
+  },
+  "arXiv_2508.12858_page10_clusters1.png": {
+    "arxiv_number": "arXiv:2508.12858",
+    "page_number": 10,
+    "figure_number": 3,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Beyond BELT, this section presents an alternative procedure for obtaining a block encoding of f \u0000 N(ρ) \u0001 when N is a Hermitian-preserving map (rather than an arbitrary linear map, as allowed by BELT) and f : R →R is a real-valued function",
+      "The protocol combines the quantum eigenvalue transformation of unitaries with real polynomials (QETU) [66] and Hermitian-preserving map exponentiation (HME) [7]"
+    ],
+    "text_positions": [
+      [
+        38999,
+        39282
+      ],
+      [
+        39282,
+        39443
+      ]
+    ]
+  },
+  "arXiv_2505.14593_page14_clusters1.png": {
+    "arxiv_number": "arXiv:2505.14593",
+    "page_number": 14,
+    "figure_number": 5,
+    "quantum_gates": [
+      "RX",
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "This encoding rotates the qubits using the rotation gates on axes X, Y , and Z, in this order",
+      "We then investigate the role of entanglement by comparing the performances obtained with and without the controlled-NOT gates",
+      "Specifically, in the following, we analyze the results of the implementations of this method for subsets of one or two qubits (m = 1 and m = 2, respectively) over a system of n = 6 qubits (one per feature of our dataset)"
+    ],
+    "text_positions": [
+      [
+        21823,
+        21917
+      ],
+      [
+        21917,
+        22043
+      ],
+      [
+        22085,
+        22306
+      ]
+    ]
+  },
+  "arXiv_2507.12408_page67_clusters1.png": {
+    "arxiv_number": "arXiv:2507.12408",
+    "page_number": 67,
+    "figure_number": 13,
+    "quantum_gates": [
+      "Measurement",
+      "Oracle",
+      "RY"
+    ],
+    "quantum_problem": "Oracle Gate Implementation",
+    "descriptions": [
+      "Since the prover’s measurement collapses the quantum register holding its encrypted output (rather than its plaintext output), we will call this the fine-grained representation of the prover’s operations",
+      "Instead of performing the prover’s measurement before the classical decryption, deferring this measurement allows us to measure the plaintext response a only, without disturbing the internal quantum state before the, now coherent, decryption routine, which at the end of the circuit holds a superposition of ciphertexts corresponding to the plaintext measurement outcome a",
+      "Note that this step, together with the fact that all intermediate quantum registers are kept until the end of the circuit without being measured or traced out makes the circuit in"
+    ],
+    "text_positions": [
+      [
+        146709,
+        146913
+      ],
+      [
+        147105,
+        147478
+      ],
+      [
+        147478,
+        147835
+      ]
+    ]
+  },
+  "arXiv_2507.12408_page68_clusters1.png": {
+    "arxiv_number": "arXiv:2507.12408",
+    "page_number": 68,
+    "figure_number": 14,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "However, as we work more generally with the operator algebras generated by the considered quantum instruments and measurements in this paper, it remains to show that this mathematical purification trick does not impact any of the statements that we make involving the quantum information accessible in these operator algebras",
+      "To this end, it is sufficient to observe that, even though these operator algebras formally live in a larger Hilbert space post-purification, they do not act non-trivially outside of the subalgebra that describes the quantum information accessible pre-purification",
+      "This is due to the fact that quantum instruments and measurements are dilated to larger Hilbert space trivially, by ignoring any additional registers available to them"
+    ],
+    "text_positions": [
+      [
+        148975,
+        149301
+      ],
+      [
+        149301,
+        149566
+      ],
+      [
+        149566,
+        149734
+      ]
+    ]
+  },
+  "arXiv_2408.16128_page1_clusters1.png": {
+    "arxiv_number": "arXiv:2408.16128",
+    "page_number": 1,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Y",
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "It involves two sequential unitary operations which couple the oscillator to an ancilliary two-level spin (i",
+      "qubit), which is then reset",
+      "1 a), consisting of two spin-controlled oscillator displacements UCD(γ, P) ≡ D(γP) = exp (2iP(Im{γ}ˆq −Re{γ}ˆp)) of amplitude γ ∈ C, with sign controlled by the internal state of the spin in the basis of the chosen Pauli operator"
+    ],
+    "text_positions": [
+      [
+        2422,
+        2531
+      ],
+      [
+        2533,
+        2561
+      ],
+      [
+        3095,
+        3493
+      ]
+    ]
+  },
+  "arXiv_2406.19120_page7_clusters1.png": {
+    "arxiv_number": "arXiv:2406.19120",
+    "page_number": 7,
+    "figure_number": 6,
+    "quantum_gates": [
+      "Measurement",
+      "Reset"
+    ],
+    "quantum_problem": "Shor's Algorithm",
+    "descriptions": [
+      "(b) We remove this node, which reduces the qubit and gate counts to 6",
+      "Circuit cutting can simplify the circuit’s structure by virtualizing noisy non-local gates into (less noisy) local gates [44] or cutting a qubit (wire) in the temporal dimension to shorten its runtime [55]",
+      "Once a qubit’s role in computation is complete, it is measured, reset to a known state (typically |0⟩), and reassigned to another logical qubit later in the circuit"
+    ],
+    "text_positions": [
+      [
+        31122,
+        31192
+      ],
+      [
+        31804,
+        32010
+      ],
+      [
+        33439,
+        33604
+      ]
+    ]
+  },
+  "arXiv_2410.23618_page3_clusters1.png": {
+    "arxiv_number": "arXiv:2410.23618",
+    "page_number": 3,
+    "figure_number": -1,
+    "quantum_gates": [
+      "SWAP"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "To understand our problem, it is helpful to discuss the closely related problem of learning shallow quantum circuits: given query access to an unknown unitary U that implements a shallow quantum circuit, learn a description of a shallow quantum circuit that is close to U",
+      "Here, we have n system qubits and n ancilla qubits, and Si is the SWAP gate on the i-th system qubit and the i-th ancilla qubit",
+      "That is, the learned circuit is a shallow quantum circuit acting on 2n qubits, and it implements a unitary that is close to U ⊗U † in diamond distance"
+    ],
+    "text_positions": [
+      [
+        6957,
+        7283
+      ],
+      [
+        7568,
+        7700
+      ],
+      [
+        8285,
+        8436
+      ]
+    ]
+  },
+  "arXiv_2410.23618_page5_clusters1.png": {
+    "arxiv_number": "arXiv:2410.23618",
+    "page_number": 5,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "(a) 1D lattice; (b) 2D lattice, where a local inversion of A can be constructed by applying a depth-d circuit on AB",
+      "• Lightcone: L(A, d) denotes the volume of locations that can be reached by a depth d circuit starting from region A",
+      "1a denotes the lightcone of the leftmost qubit for a circuit deﬁned on 1D lattice"
+    ],
+    "text_positions": [
+      [
+        11942,
+        12058
+      ],
+      [
+        12058,
+        12175
+      ],
+      [
+        12284,
+        12366
+      ]
+    ]
+  },
+  "arXiv_2504.09490_page24_clusters1.png": {
+    "arxiv_number": "arXiv:2504.09490",
+    "page_number": 24,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "arXiv_2504.09490_page25_clusters1.png": {
+    "arxiv_number": "arXiv:2504.09490",
+    "page_number": 25,
+    "figure_number": -1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "to get a unitary U = BA−1"
+    ],
+    "text_positions": [
+      [
+        70056,
+        70085
+      ]
+    ]
+  },
+  "arXiv_2405.11687_page4_clusters1.png": {
+    "arxiv_number": "arXiv:2405.11687",
+    "page_number": 4,
+    "figure_number": 3,
+    "quantum_gates": [
+      "Hadamard"
+    ],
+    "quantum_problem": "VQE - Variational Quantum Eigensolver",
+    "descriptions": [
+      "The Pauli operators in the Hamiltonian can be substituted by the Pauli operators’ eigenvalue ±1 so the corresponding qubits can be neglected",
+      "To reduce the number of qubits, the unitary transform can be used to get the Hamiltonian H′ = UHU † with the largest subset of qubits that is acted trivially or by at most one of the Pauli operators from all the Pl terms",
+      "For VQE, GD is utilized to optimize the parameters of a quantum circuit, representing the trial wavefunction used to estimate the system’s ground state energy"
+    ],
+    "text_positions": [
+      [
+        15729,
+        15870
+      ],
+      [
+        15870,
+        16091
+      ],
+      [
+        16353,
+        16512
+      ]
+    ]
+  },
+  "arXiv_2412.12085_page2_clusters1.png": {
+    "arxiv_number": "arXiv:2412.12085",
+    "page_number": 2,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "Section VII describes a technique that can alle- viate the detrimental eﬀects of some noise",
+      "For measurements performed on quantum systems, the system state immediately prior to measurement, ˆρf, and the measurement choice dictate the measurement out- come statistics",
+      "Regardless of the measurement choice, the Fisher information satisﬁes the quantum Cram´er-Rao bound (QCRB) F(λ) ⩽H(λ) where the quantum Fisher information (QFI) is determined [5, 10, 37, 43–45] from the pre-measurement state via"
+    ],
+    "text_positions": [
+      [
+        5466,
+        5558
+      ],
+      [
+        7329,
+        7504
+      ],
+      [
+        7504,
+        7761
+      ]
+    ]
+  },
+  "arXiv_2412.12085_page3_clusters1.png": {
+    "arxiv_number": "arXiv:2412.12085",
+    "page_number": 3,
+    "figure_number": 2,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "We assume that the qubit states at the outset of the protocol (initial states) are noisy with no possibil- ity of noise reduction",
+      "The single-qubit, single-channel (SQSC) protocol uses a single qubit and and single channel query",
+      "The single parameter-bearing channel use of the CS- protocol is exempliﬁed by determining the dephasing time T2 of one particular spin in each molecule; this is re- lated to the parameter associated with a phase-ﬂip chan- nel [58]"
+    ],
+    "text_positions": [
+      [
+        10196,
+        10347
+      ],
+      [
+        11095,
+        11193
+      ],
+      [
+        11418,
+        11649
+      ]
+    ]
+  },
+  "arXiv_2412.12085_page5_clusters1.png": {
+    "arxiv_number": "arXiv:2412.12085",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Thus the estimation protocol is determined by chosing r0 and the ﬁnal post- channel measurement",
+      "The known results assume a particular preparatory uni- tary, whose basic component is the two-qubit unitary,",
+      "The protocol continues with one channel query on one qubit (the channel qubit)"
+    ],
+    "text_positions": [
+      [
+        18696,
+        18792
+      ],
+      [
+        20497,
+        20728
+      ],
+      [
+        21151,
+        21230
+      ]
+    ]
+  },
+  "arXiv_2412.12085_page7_clusters1.png": {
+    "arxiv_number": "arXiv:2412.12085",
+    "page_number": 7,
+    "figure_number": 4,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Suppose that each spectator is subjected to a depo- larizing channel after the preparatory unitary and before",
+      "Thus the particular unitary has transformed the phase- ﬂip channel into a bit-ﬂip channel with the same param- eter λj"
+    ],
+    "text_positions": [
+      [
+        26205,
+        26355
+      ],
+      [
+        28326,
+        28445
+      ]
+    ]
+  },
+  "arXiv_2412.12085_page8_clusters1.png": {
+    "arxiv_number": "arXiv:2412.12085",
+    "page_number": 8,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The expression for the QFI of Eq",
+      "(22) could then be modiﬁed by replacing the Bloch-sphere matrices by their primed versions, provided that each rotation Rj is in- dependent of λ",
+      "phase shift, Pauli channel, depolarizing channel) the latter are independent of λ but there are possibilities where they are not"
+    ],
+    "text_positions": [
+      [
+        29752,
+        29787
+      ],
+      [
+        29787,
+        29932
+      ],
+      [
+        30102,
+        30231
+      ]
+    ]
+  },
+  "arXiv_2412.12085_page9_clusters1.png": {
+    "arxiv_number": "arXiv:2412.12085",
+    "page_number": 9,
+    "figure_number": 6,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "on the spectators are each ˆΠ± = \u0010 ˆI ± r0 · ˆσ \u0011 /2",
+      "that to lowest order in the purity,",
+      "Here the pre-measurement unitary is restricted to the spectator qubits and we allow a general measurement direction on the parameter-dependent qubit"
+    ],
+    "text_positions": [
+      [
+        33897,
+        33956
+      ],
+      [
+        33956,
+        34052
+      ],
+      [
+        35188,
+        35337
+      ]
+    ]
+  },
+  "arXiv_2501.05527_page3_clusters1.png": {
+    "arxiv_number": "arXiv:2501.05527",
+    "page_number": 3,
+    "figure_number": 2,
+    "quantum_gates": [
+      "Y"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "second and third CNOT propagates to a weight-two error on the data qubits",
+      "two-qubit error as illustrated by the propagation of the error onto the measurement ancilla",
+      "[17], the authors proposed a way to cir- cumvent this problem by extending the synthesized circuit with a correction circuit, which consists of additional measurements and a conditional recovery operation"
+    ],
+    "text_positions": [
+      [
+        11025,
+        11099
+      ],
+      [
+        13096,
+        13225
+      ],
+      [
+        13831,
+        14036
+      ]
+    ]
+  },
+  "arXiv_2502.06463_page6_clusters1.png": {
+    "arxiv_number": "arXiv:2502.06463",
+    "page_number": 6,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Hadamard"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "In any accreditation protocol using Lemma 3 to generate trap and target simulations6, the trap simulations are all in the same redaction class and the target simulation is in a reduced redaction class of that redaction class",
+      "This provides the required trap and target simulations using the results of Ref",
+      "In Algorithm 4, H is used to denote a Hadamard gate"
+    ],
+    "text_positions": [
+      [
+        23346,
+        23571
+      ],
+      [
+        25588,
+        25668
+      ],
+      [
+        25877,
+        25929
+      ]
+    ]
+  },
+  "arXiv_2502.06463_page7_clusters1.png": {
+    "arxiv_number": "arXiv:2502.06463",
+    "page_number": 7,
+    "figure_number": 6,
+    "quantum_gates": [
+      "Hadamard",
+      "Measurement",
+      "Z"
+    ],
+    "quantum_problem": "Quantum Circuit Simulation",
+    "descriptions": [
+      "From Trap and Target Simulations to an Accreditation Protocol",
+      "Prepare the state |0⟩⊗N as the input state to circ",
+      "Measure each qubit in the Z-basis"
+    ],
+    "text_positions": [
+      [
+        26770,
+        26840
+      ],
+      [
+        28225,
+        28278
+      ],
+      [
+        29334,
+        29381
+      ]
+    ]
+  },
+  "arXiv_2510.23237_page12_clusters1.png": {
+    "arxiv_number": "arXiv:2510.23237",
+    "page_number": 12,
+    "figure_number": 1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The quantum implementation of HMMs described above requires further validation to clarify how it incorporates the classical HMM framework",
+      "In other words, if the quantum implementation generalizes the classical HMM, it remains to be shown how classical information can be retrieved from the quantum model",
+      "To bridge this gap, we prove the following proposition in Appendix A, rigorously revealing the implication in a general model setting with a hidden state dimen- sion of n = 2 and an observation dimension of m = 3"
+    ],
+    "text_positions": [
+      [
+        29313,
+        29553
+      ],
+      [
+        29553,
+        29719
+      ],
+      [
+        29719,
+        29932
+      ]
+    ]
+  },
+  "arXiv_2406.18632_page5_clusters1.png": {
+    "arxiv_number": "arXiv:2406.18632",
+    "page_number": 5,
+    "figure_number": 1,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Left Circuit: This circuit operates identically to a two-point measurement (TPM) scheme and is used when the control system is in the state |0⟩(probability 1 −ϵ)",
+      "They deviate from the TPM scheme in distinct ways: Top Circuit (Circuit 1): Here, the deviation from the TPM scheme is concentrated in the first measurement, which applies the Kraus operator |Ei⟩⟨λi| ⊗|0⟩⟨1|, resulting in outcomes Ei + f Wi",
+      "Bottom Circuit (Circuit 2): This circuit deviates in both its first and second measurements"
+    ],
+    "text_positions": [
+      [
+        27157,
+        27319
+      ],
+      [
+        27472,
+        27713
+      ],
+      [
+        27713,
+        27805
+      ]
+    ]
+  },
+  "arXiv_2410.07051_page5_clusters1.png": {
+    "arxiv_number": "arXiv:2410.07051",
+    "page_number": 5,
+    "figure_number": 1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "(This figure is copied from [5]"
+    ],
+    "text_positions": [
+      [
+        11836,
+        11868
+      ]
+    ]
+  },
+  "arXiv_2503.22570_page6_clusters1.png": {
+    "arxiv_number": "arXiv:2503.22570",
+    "page_number": 6,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RY",
+      "Y"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "arXiv_2503.22570_page9_clusters1.png": {
+    "arxiv_number": "arXiv:2503.22570",
+    "page_number": 9,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Hadamard",
+      "Measurement",
+      "S",
+      "X"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "To measure the real part in (c) and (d), the ancillary qubit is measured in the X basis using the Hadamard gate",
+      "To measure the imaginary part, the phase gate S† is inserted before the Hadamard gate so that the measurement basis becomes Y since S†ZS = Y",
+      "The upper (lower) horizontal line represents the ancillary qubit (the system qubits)"
+    ],
+    "text_positions": [
+      [
+        28428,
+        28540
+      ],
+      [
+        28540,
+        28682
+      ],
+      [
+        28682,
+        28767
+      ]
+    ]
+  },
+  "arXiv_2409.17349_page3_clusters2.png": {
+    "arxiv_number": "arXiv:2409.17349",
+    "page_number": 3,
+    "figure_number": -1,
+    "quantum_gates": [
+      "RX",
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "Quantum Circuit Simulation",
+    "descriptions": [
+      "than that of (1, 1, 1), as shown in the figure",
+      "Preserving global and local gauge symmetries is important for designing quantum circuits",
+      "In many algorithms of quantum simulation, such as time evolution and ground-state calcula- tion, we need the exponential operators of individual terms in a Hamiltonian"
+    ],
+    "text_positions": [
+      [
+        9463,
+        9510
+      ],
+      [
+        10117,
+        10232
+      ],
+      [
+        10350,
+        10518
+      ]
+    ]
+  },
+  "arXiv_2409.17349_page4_clusters1.png": {
+    "arxiv_number": "arXiv:2409.17349",
+    "page_number": 4,
+    "figure_number": 3,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The circuit constructed from them conserves the Gauss law and the quark numbers",
+      "(15), and the diagonalizing unitary matrix appears not in the gauge part but in the fermion hopping part",
+      "The initial state is given by zero electric fields, Π(x)|Φ⟩= |Φ⟩, and the flavor-singlet three quarks localized at x = 2 (B = 1) and at x = 1 and 3 (B = 2), which can be prepared by a shallow circuit"
+    ],
+    "text_positions": [
+      [
+        12795,
+        12875
+      ],
+      [
+        13006,
+        13111
+      ],
+      [
+        14232,
+        14437
+      ]
+    ]
+  },
+  "arXiv_2505.10513_page4_clusters1.png": {
+    "arxiv_number": "arXiv:2505.10513",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "T"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "Here, vector b represents m elements of the target channel Rθ z expressed in a vectorised form, and A is an m × n matrix, with n columns for the basis set of channels in the decomposition and m rows of elements that specify each channel (see Eq",
+      "Therefore, i = 0 represents the S gate, i = 1 represents the T gate, and so on",
+      "These T 1 n gates can be implemented by a generalised gate teleportation circuit as shown in Fig"
+    ],
+    "text_positions": [
+      [
+        15068,
+        15318
+      ],
+      [
+        17739,
+        17818
+      ],
+      [
+        17818,
+        17915
+      ]
+    ]
+  },
+  "arXiv_2408.16047_page18_clusters2.png": {
+    "arxiv_number": "arXiv:2408.16047",
+    "page_number": 18,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "where there are 2α horizontal wires (Λ(α) acts on 2α replica spaces of a single qubit)",
+      "and that the magic is zero for J = 0, as this corresponds to a circuit of SWAPs (which is clearly Clifford)",
+      "Further, the two-site ZZ rotation gate in Eq"
+    ],
+    "text_positions": [
+      [
+        61237,
+        61332
+      ],
+      [
+        61613,
+        61732
+      ],
+      [
+        61732,
+        61777
+      ]
+    ]
+  },
+  "arXiv_2505.17361_page19_clusters1.png": {
+    "arxiv_number": "arXiv:2505.17361",
+    "page_number": 19,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Others 𝛺𝐾≤1 and 𝐶𝐽> 0 can not be satisfied simultaneously",
+      "By using the properties of Kostka number, Eq"
+    ],
+    "text_positions": [
+      [
+        26744,
+        26828
+      ],
+      [
+        26828,
+        26873
+      ]
+    ]
+  },
+  "arXiv_2506.06425_page4_clusters1.png": {
+    "arxiv_number": "arXiv:2506.06425",
+    "page_number": 4,
+    "figure_number": 3,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "a generating set of the stabilizers comprising operators associated with the red faces of L",
+      "The code distance of the DK is equal to one, but de- spite this the stabilizers detect single-qubit X and Y er- rors as well as some higher weight errors [105]",
+      "And in certain contexts the undetectable single-qubit Z errors act as natural noise in the simulated system [105]"
+    ],
+    "text_positions": [
+      [
+        13092,
+        13186
+      ],
+      [
+        13769,
+        13929
+      ],
+      [
+        13929,
+        14043
+      ]
+    ]
+  },
+  "arXiv_2506.06425_page6_clusters2.png": {
+    "arxiv_number": "arXiv:2506.06425",
+    "page_number": 6,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Measurement",
+      "Y",
+      "Z"
+    ],
+    "quantum_problem": "VQE - Variational Quantum Eigensolver",
+    "descriptions": [
+      "These measurements are therefore robust to any odd number of measurement errors",
+      "Any subset with this property can be measured simply by measuring the relevant qubits in the appropriate Pauli bases",
+      "For this measurement in particular, we can also extract a sub- set of the stabilizer eigenvalues"
+    ],
+    "text_positions": [
+      [
+        22467,
+        22547
+      ],
+      [
+        22814,
+        22931
+      ],
+      [
+        23043,
+        23140
+      ]
+    ]
+  },
+  "arXiv_2506.06425_page7_clusters1.png": {
+    "arxiv_number": "arXiv:2506.06425",
+    "page_number": 7,
+    "figure_number": -1,
+    "quantum_gates": [
+      "RZ"
+    ],
+    "quantum_problem": "Quantum State Preparation",
+    "descriptions": [
+      "Stabilizer simulations are routinely used to benchmark the performance of quantum error-correcting codes with thousands of qubits, see e",
+      "6a but we emphasize that the only part of these circuits that changes for differ- ent choices of rotation angle is one single-qubit gate, and therefore we would expect the Clifford circuits to accu- rately capture the error propagation in the generic cir- cuits",
+      "The restriction to stochastic Pauli noise is perhaps the biggest limitation of our simulation, as this does not cap- ture important device noise such as leakage [125, 126], amplitude damping [127–129], or coherent errors"
+    ],
+    "text_positions": [
+      [
+        26560,
+        26730
+      ],
+      [
+        27368,
+        27630
+      ],
+      [
+        27842,
+        28063
+      ]
+    ]
+  },
+  "arXiv_2410.22287_page10_clusters1.png": {
+    "arxiv_number": "arXiv:2410.22287",
+    "page_number": 10,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The permutation puzzle has four physical locations:",
+      "To formalize our diagrammatic representation, we want to represent these locations (or positions) with a tensor product structure as",
+      "Any of these locations can hold a green or a blue fermion e"
+    ],
+    "text_positions": [
+      [
+        42299,
+        42419
+      ],
+      [
+        42440,
+        42627
+      ],
+      [
+        42627,
+        42692
+      ]
+    ]
+  },
+  "arXiv_2504.12416_page14_clusters2.png": {
+    "arxiv_number": "arXiv:2504.12416",
+    "page_number": 14,
+    "figure_number": 7,
+    "quantum_gates": [
+      "CNOT",
+      "Measurement",
+      "Y",
+      "Z"
+    ],
+    "quantum_problem": "VQE - Variational Quantum Eigensolver",
+    "descriptions": [
+      "Each element in the target dimen- sion is then encoded as a rotation around the y axis in the Bloch sphere representation",
+      "As sug- gested in [23], the structure consists of m such layers, where each layer contains rotation gates with weights θ m i,j followed by nearest neighbor entanglement CNOT gates, as shown in",
+      "After applying the vari- ational layers V(θ), the quantum state is measured and the expectation values of the single qubit Pauli-Z observables are obtained for all qubits"
+    ],
+    "text_positions": [
+      [
+        66692,
+        66814
+      ],
+      [
+        66901,
+        67107
+      ],
+      [
+        67193,
+        67364
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page9_clusters3.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 9,
+    "figure_number": 5,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Caveat: We still require that the boundary string operators commute with both primary and secondary boundary gauge operators except around their endpoints",
+      "According to Theorem 7, when comparing two boundary anyons, it is sufficient to know the syndrome pattern of the primary boundary gauge operators",
+      "Similarly, Theorem 8 states that when solving for bound- ary string operators to identify boundary anyons, we only need to consider string operators formed by primary boundary gauge operators"
+    ],
+    "text_positions": [
+      [
+        31388,
+        31543
+      ],
+      [
+        31543,
+        31689
+      ],
+      [
+        31689,
+        31881
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page12_clusters1.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 12,
+    "figure_number": -1,
+    "quantum_gates": [
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "Shor's Algorithm",
+    "descriptions": [
+      "The detailed computational algorithm for incorporating these additional boundary gauge operators into the Hamiltonian will be discussed in Sec",
+      "This process, named as topological order comple- tion, is crucial due to the presence of secondary boundary gauge operators, which have been often overlooked in previous literature",
+      "For example, the e-condensed and m-condensed boundaries of the Z2 fish toric code are illustrated in Fig"
+    ],
+    "text_positions": [
+      [
+        41270,
+        41413
+      ],
+      [
+        41415,
+        41596
+      ],
+      [
+        41596,
+        41701
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page19_clusters1.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 19,
+    "figure_number": 11,
+    "quantum_gates": [],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "2, we present an algorithm that systematically derives the boundary gauge operators for a truncated Pauli stabilizer code",
+      "To efficiently compute translation-invariant Pauli stabilizer models, we use the Laurent polynomial for- malism, a well-established method in the study of fracton models, topological orders, bosonization, quantum cellular automata, and error-correcting codes [50, 62, 64, 76, 88, 104–107]",
+      "We begin by showing that any Pauli operator, defined as a finite tensor product of Pauli matrices across different lattice sites, can be expressed (up to an overall constant) as a column vector over the polynomial ring R = Zd[x, y, x−1, y−1]12, as described in Ref"
+    ],
+    "text_positions": [
+      [
+        65669,
+        65791
+      ],
+      [
+        66784,
+        67073
+      ],
+      [
+        67561,
+        67826
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page20_clusters1.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 20,
+    "figure_number": 12,
+    "quantum_gates": [
+      "RY",
+      "Y"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "After disregarding the global phase η, the corresponding column vector for this operator is a linear combination of the individual Pauli matrices, written as:",
+      "To determine whether two Pauli operators represented by vectors v1 and v2 commute or not, we define the dot product as"
+    ],
+    "text_positions": [
+      [
+        68952,
+        69182
+      ],
+      [
+        69530,
+        69855
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page20_clusters2.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 20,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "To determine whether two Pauli operators represented by vectors v1 and v2 commute or not, we define the dot product as",
+      "The two Pauli operators v1 and v2 commute if and only if ⟨v1 · v2⟩0 = 0"
+    ],
+    "text_positions": [
+      [
+        69530,
+        69855
+      ],
+      [
+        69972,
+        70044
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page27_clusters1.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 27,
+    "figure_number": 13,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Shor's Algorithm",
+    "descriptions": [
+      "We consider the Z2 standard toric code as an introductory example",
+      "The boundary gauge operators for both the smooth and rough boundaries, obtained using Algorithm 1 outlined in Sec",
+      "2 and Appendix D, are shown in Fig"
+    ],
+    "text_positions": [
+      [
+        91735,
+        91801
+      ],
+      [
+        91801,
+        91915
+      ],
+      [
+        91917,
+        91952
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page30_clusters1.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 30,
+    "figure_number": 18,
+    "quantum_gates": [],
+    "quantum_problem": "Shor's Algorithm",
+    "descriptions": [
+      "Since the Z2 fish toric code is equivalent to the Z2 standard toric code conjugated by a finite-depth Clifford circuit, it does not alter the bulk topological data of the standard toric code",
+      "Therefore, according to the bulk-boundary correspondence, the topological properties of the boundary anyons remain the same as in Eq",
+      "Consequently, there are two types of boundary constructions and six types of defect constructions"
+    ],
+    "text_positions": [
+      [
+        99582,
+        99773
+      ],
+      [
+        99773,
+        99906
+      ],
+      [
+        99911,
+        100009
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page31_clusters2.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 31,
+    "figure_number": 20,
+    "quantum_gates": [
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "Shor's Algorithm",
+    "descriptions": [
+      "with themselves)",
+      "Furthermore, there are 2 types of defect construction, as illustrated in Fig",
+      "This setup is equivalent to placing quantum codes on unorientable manifolds, such as a Klein bottle, which can lead to the emergence of additional logical gates [56]"
+    ],
+    "text_positions": [
+      [
+        104147,
+        104164
+      ],
+      [
+        104164,
+        104241
+      ],
+      [
+        104446,
+        104612
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page32_clusters1.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 32,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "arXiv_2410.11942_page33_clusters2.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 33,
+    "figure_number": 23,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Shor's Algorithm",
+    "descriptions": [
+      "For simplicity, we only list the generators of each Lagrangian subgroup above",
+      "The construction follows the same method in previous sections, so we omit the detailed constructions of all 22 defects",
+      "The defect Hamiltonian terms are formed by combining the short boundary string operators of the corresponding bosons in the given Lagrangian subgroup"
+    ],
+    "text_positions": [
+      [
+        108748,
+        108826
+      ],
+      [
+        108826,
+        108945
+      ],
+      [
+        108945,
+        109095
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page34_clusters1.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 34,
+    "figure_number": 25,
+    "quantum_gates": [
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "arXiv_2410.11942_page35_clusters1.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 35,
+    "figure_number": -1,
+    "quantum_gates": [
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The detailed constructions of these Lagrangian subgroups are omitted for brevity",
+      "Computational verification confirms that topological order completion is not required for these 270 anyon condensations",
+      "Our algorithm can also be applied to anomalous Pauli stabilizer codes, where the Hilbert space lacks a tensor product structure"
+    ],
+    "text_positions": [
+      [
+        112323,
+        112409
+      ],
+      [
+        112409,
+        112529
+      ],
+      [
+        112808,
+        112936
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page39_clusters1.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 39,
+    "figure_number": 31,
+    "quantum_gates": [
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "arXiv_2410.11942_page60_clusters1.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 60,
+    "figure_number": -1,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "Instead of selecting the range of Pauli operators along the boundary, as described in Sec",
+      "2, we choose a range where the Pauli operators act along a finite-width line extending from the boundary into the bulk",
+      "In practice, this can be done on a finite lattice by defining the range of Pauli operators within a rectangle that spans from the right boundary to the left boundary"
+    ],
+    "text_positions": [
+      [
+        184679,
+        184769
+      ],
+      [
+        184771,
+        184890
+      ],
+      [
+        185054,
+        185220
+      ]
+    ]
+  },
+  "arXiv_2410.11942_page61_clusters1.png": {
+    "arxiv_number": "arXiv:2410.11942",
+    "page_number": 61,
+    "figure_number": -1,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "F3 Based on the construction shown in Fig",
+      "F2, we obtain the string operators that commute with all defect Hamiltonian terms, highlighted in red",
+      "G7 shows 6 defects in the three-fermion code"
+    ],
+    "text_positions": [
+      [
+        187053,
+        187095
+      ],
+      [
+        187095,
+        187197
+      ],
+      [
+        187212,
+        187257
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page20_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 20,
+    "figure_number": 1,
+    "quantum_gates": [
+      "T"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "An encoder encodes a message of m bits, x ∈{1, 2,",
+      "which is a bitstring of n bits",
+      "(All the information in this picture is classical, but we already use our convention where classical information transfer is indicated by double lines, while the transfer of quantum information is indicated by single lines"
+    ],
+    "text_positions": [
+      [
+        30644,
+        30695
+      ],
+      [
+        30697,
+        30757
+      ],
+      [
+        31015,
+        31238
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page22_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 22,
+    "figure_number": 1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The encoding map E maps a bit string x of length m to a quantum state in M⊗n dA",
+      "The quantum channel T acts on each of the n subsystems, and the decoder D decodes the received quantum state to a bit string x′, which should be identical to the input bit string x",
+      "Note that classical information transfer is indicated by double lines (input into encoder, output of decoder), while the transfer of quantum states is indicated by single lines"
+    ],
+    "text_positions": [
+      [
+        34813,
+        34894
+      ],
+      [
+        34894,
+        35075
+      ],
+      [
+        35075,
+        35252
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page27_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 27,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Let the sender and the receiver each hold one qubit from a maximally entangled state |ϕ+⟩= 1 √",
+      "The sender performs an encoding E : C2 ⊗M2 →M2 of two classical bits a ∈{0, 1} and b ∈{0, 1} by performing one of the 4 quantum gates Gab = {12, σx, σy, σz} on their part of the maximally entangled state",
+      "By performing a measurement in the Bell basis as a decoder D : M2 ⊗M2 →C2, the receiver can deduce which message the sender intended to send from the measurement output"
+    ],
+    "text_positions": [
+      [
+        43871,
+        43980
+      ],
+      [
+        43980,
+        44184
+      ],
+      [
+        44338,
+        44507
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page28_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 28,
+    "figure_number": 1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "4: Basic setup for entanglement-assisted communication",
+      "The encoding map E maps a bit string x of length m and one part of each entangled state ϕ+ to a quantum state in M⊗n dA",
+      "The quantum channel T acts on each of the n subsystems, and the decoder D uses the other part of each maximally entangled state to decode the received quantum state to a bit string x′, which should be identical to the input bit string x"
+    ],
+    "text_positions": [
+      [
+        46131,
+        46186
+      ],
+      [
+        46186,
+        46307
+      ],
+      [
+        46307,
+        46544
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page37_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 37,
+    "figure_number": -1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "To implement a circuit in an error correcting code such that its behaviour matches with a noiseless version of the same circuit with high probability, an error correction gadget can be performed between every operation to stop errors from accumulating",
+      "The concatenated object obtained from a gate gadget and an error correction gadget is referred to as a rectangle of an elementary operation in [6, 27]",
+      "This circuit has two logical qubits, one logical single-qubit gate G and one logical two-qubit gate G′"
+    ],
+    "text_positions": [
+      [
+        67374,
+        67626
+      ],
+      [
+        67626,
+        67777
+      ],
+      [
+        67886,
+        67989
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page38_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 38,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Then, the circuit can be regarded as a construction made up of (overlapping) exRecs, and the characteristics of this construction determine whether the implementation of a quantum circuit protects well against noise",
+      "Consider the encoded circuit from Example 1",
+      "This is the key characteristic that exRecs in a circuit must fulfill in order to ensure that the implementation protects the information"
+    ],
+    "text_positions": [
+      [
+        68973,
+        69189
+      ],
+      [
+        69203,
+        69247
+      ],
+      [
+        69694,
+        69831
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page39_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 39,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Pauli fault pattern on the quantum circuit EGM",
+      "Then, we call EGM well-behaved under F if",
+      "Note that the above transformation rules are sketched in"
+    ],
+    "text_positions": [
+      [
+        71323,
+        71370
+      ],
+      [
+        71370,
+        71442
+      ],
+      [
+        71442,
+        71508
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page46_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 46,
+    "figure_number": -1,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "2: Table outlining the relation between the generators and various single qubit errors",
+      "Xi means that a Pauli X-error occurs on the i-th qubit, while 1 is applied the other (6) remaining qubits",
+      "A value of 0 signifies that the error and the generator commute, while 1 signifies that they anti-commute"
+    ],
+    "text_positions": [
+      [
+        83043,
+        83130
+      ],
+      [
+        83130,
+        83236
+      ],
+      [
+        83236,
+        83342
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page46_clusters2.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 46,
+    "figure_number": -1,
+    "quantum_gates": [
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "2: Table outlining the relation between the generators and various single qubit errors",
+      "Xi means that a Pauli X-error occurs on the i-th qubit, while 1 is applied the other (6) remaining qubits",
+      "Zi means that a Pauli Z-error occurs on the i-th qubit, while 1 is applied the other (6) remaining qubits"
+    ],
+    "text_positions": [
+      [
+        83043,
+        83130
+      ],
+      [
+        83130,
+        83236
+      ],
+      [
+        83518,
+        83624
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page69_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 69,
+    "figure_number": 2,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "3: Setup for entanglement distillation based on the protocol in [32]",
+      "Two parties each have access to one part of k noisy entangled states ϕq",
+      "One party performs local operations EDist and sends one-way classical communication to the other, who performs local operations DDist"
+    ],
+    "text_positions": [
+      [
+        136241,
+        136310
+      ],
+      [
+        136310,
+        136382
+      ],
+      [
+        136382,
+        136516
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page100_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 100,
+    "figure_number": -1,
+    "quantum_gates": [
+      "Hadamard",
+      "T",
+      "U"
+    ],
+    "quantum_problem": "Shor's Algorithm",
+    "descriptions": [
+      "1: State preparation circuits for [[4,2,2]] Bacon-Shor error detection code as proposed in [41]",
+      "Logical state State preparation circuit"
+    ],
+    "text_positions": [
+      [
+        199157,
+        199253
+      ],
+      [
+        199253,
+        199329
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page104_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 104,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "This circuit has Le = 12 locations, whereas the unencoded circuit has Lu = 5 locations",
+      "(b) Preparation of 00",
+      "This circuit has Le = 22 locations, whereas the unencoded circuit has Lu = 4 locations"
+    ],
+    "text_positions": [
+      [
+        206211,
+        206298
+      ],
+      [
+        206298,
+        206329
+      ],
+      [
+        206329,
+        206416
+      ]
+    ]
+  },
+  "arXiv_2412.20736_page107_clusters1.png": {
+    "arxiv_number": "arXiv:2412.20736",
+    "page_number": 107,
+    "figure_number": -1,
+    "quantum_gates": [],
+    "quantum_problem": "Quantum State Preparation",
+    "descriptions": [
+      "Techniques for decomposing a given circuit in terms of this gate set are discussed in [79]",
+      "This can be seen by analyzing the output statistics from every possible single-qubit error in the i"
+    ],
+    "text_positions": [
+      [
+        212990,
+        213081
+      ],
+      [
+        213617,
+        213717
+      ]
+    ]
+  },
+  "arXiv_2507.20813_page3_clusters1.png": {
+    "arxiv_number": "arXiv:2507.20813",
+    "page_number": 3,
+    "figure_number": 1,
+    "quantum_gates": [
+      "SWAP"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Illustration of the quantum circuit used to calculate the fidelity between |Ψ′⟩:= |Ψ′(ρ)⟩and |Φ′⟩:= |Φ′(σ)⟩",
+      "Its main advantage lies in its prac- ticality, as it allows the evaluation of similarity between quantum states without resorting to quantum tomogra- phy, whose computational cost grows exponentially with the number of qubits in the system",
+      "The SWAP test can be straightforwardly extended to arbitrary pairs of un- known mixed quantum states ρ and σ by making use of Uhlmann’s theorem"
+    ],
+    "text_positions": [
+      [
+        10652,
+        10760
+      ],
+      [
+        10779,
+        11019
+      ],
+      [
+        11019,
+        11163
+      ]
+    ]
+  },
+  "arXiv_2507.20813_page8_clusters1.png": {
+    "arxiv_number": "arXiv:2507.20813",
+    "page_number": 8,
+    "figure_number": 6,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Illustration of the circuit used for the preparation of the |Ψ(ρAB sep)⟩state from Eq",
+      "The variational quantum circuit to prepare the purification of ρbi-sep is illustrated in Fig",
+      "Here we show the variational quantum circuit to prepare the state described by Eq"
+    ],
+    "text_positions": [
+      [
+        29780,
+        29866
+      ],
+      [
+        31474,
+        31567
+      ],
+      [
+        31578,
+        31660
+      ]
+    ]
+  },
+  "arXiv_2507.20813_page9_clusters1.png": {
+    "arxiv_number": "arXiv:2507.20813",
+    "page_number": 9,
+    "figure_number": 7,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The variational quantum circuit to prepare the purification of ρAB qc is il- lustrated in Fig",
+      "The variational quantum circuit to prepare the purifica- tion of ρAB cc is illustrated in Fig"
+    ],
+    "text_positions": [
+      [
+        32775,
+        32869
+      ],
+      [
+        33817,
+        33911
+      ]
+    ]
+  },
+  "arXiv_2507.20813_page10_clusters1.png": {
+    "arxiv_number": "arXiv:2507.20813",
+    "page_number": 10,
+    "figure_number": 10,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The variational quantum circuit to prepare the purification of ρA ι is illus- trated in Fig",
+      "In this figure we show the variational quantum circuit to prepare purifications of the state ρA ι , described by Eq",
+      "Here we show the variational quantum circuit to prepare the purification described by Eq"
+    ],
+    "text_positions": [
+      [
+        34484,
+        34576
+      ],
+      [
+        34587,
+        34703
+      ],
+      [
+        35729,
+        35818
+      ]
+    ]
+  },
+  "arXiv_2507.20813_page10_clusters2.png": {
+    "arxiv_number": "arXiv:2507.20813",
+    "page_number": 10,
+    "figure_number": 10,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The variational quantum circuit to prepare the purification of ρA ι is illus- trated in Fig",
+      "In this figure we show the variational quantum circuit to prepare purifications of the state ρA ι , described by Eq",
+      "Here we show the variational quantum circuit to prepare the purification described by Eq"
+    ],
+    "text_positions": [
+      [
+        34484,
+        34576
+      ],
+      [
+        34587,
+        34703
+      ],
+      [
+        35729,
+        35818
+      ]
+    ]
+  },
+  "arXiv_2507.20813_page11_clusters1.png": {
+    "arxiv_number": "arXiv:2507.20813",
+    "page_number": 11,
+    "figure_number": 11,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Oracle Gate Implementation",
+    "descriptions": [
+      "Since the proposed entanglement quantification al- gorithm is likewise applicable to qudits, the circuit pre- sented in Fig",
+      "Each Vi consists of applying an RY rotation gate to each qubit, followed by CNOT gates between neighboring qubits",
+      "This layer begins with the appli- cation of a general rotation gate to each qubit, followed by the application of general controlled gates between all pairs of qubits"
+    ],
+    "text_positions": [
+      [
+        37307,
+        37431
+      ],
+      [
+        39278,
+        39392
+      ],
+      [
+        39572,
+        39739
+      ]
+    ]
+  },
+  "arXiv_2403.00077_page2_clusters1.png": {
+    "arxiv_number": "arXiv:2403.00077",
+    "page_number": 2,
+    "figure_number": 2,
+    "quantum_gates": [
+      "Y"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "We estimate the resources required to implement this calculation on an FQTC running the surface code, accounting for the impacts of rotation syn- thesis [36], magic state distillation [37, 38], a nonzero logical error rate, and imperfect state prep in which γ < 1",
+      "We generally find that QPE protocols based on the Hadamard test have comparable overheads, though there is some differentiation among the resource require- ments for γ < 1 and low precision",
+      "The classically controlled rotation is conditioned on the measurement outcomes of the previous iterates"
+    ],
+    "text_positions": [
+      [
+        5672,
+        5936
+      ],
+      [
+        5936,
+        6126
+      ],
+      [
+        8462,
+        8566
+      ]
+    ]
+  },
+  "arXiv_2403.00077_page2_clusters2.png": {
+    "arxiv_number": "arXiv:2403.00077",
+    "page_number": 2,
+    "figure_number": 1,
+    "quantum_gates": [
+      "Measurement"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "Worse yet, due to the use of the quantum Fourier transform (QFT) text- book QPE is very sensitive to errors and requires a high degree of QEC to ensure sufficiently low logical error rates",
+      "Various alternatives to textbook QPE have been proposed that use one or zero ancilla [41, 42], reduce the maximum circuit depth [8–11], or provide robustness to noise or other errors [43–45]",
+      "The classically controlled rotation is conditioned on the measurement outcomes of the previous iterates"
+    ],
+    "text_positions": [
+      [
+        7116,
+        7305
+      ],
+      [
+        7305,
+        7496
+      ],
+      [
+        8462,
+        8566
+      ]
+    ]
+  },
+  "arXiv_2403.00077_page3_clusters1.png": {
+    "arxiv_number": "arXiv:2403.00077",
+    "page_number": 3,
+    "figure_number": 3,
+    "quantum_gates": [
+      "Hadamard",
+      "QFT",
+      "S",
+      "T",
+      "U"
+    ],
+    "quantum_problem": "Quantum Fourier Transform",
+    "descriptions": [
+      "Perhaps the simplest algorithm for phase estimation is the Hadamard test shown in Fig",
+      "Contrasting this with the semiclassical QFT in IPE, we only have to perform a single controlled unitary",
+      "The I/S† gate represents separate instances of the circuit where either I or S† is applied"
+    ],
+    "text_positions": [
+      [
+        9747,
+        9857
+      ],
+      [
+        9859,
+        9963
+      ],
+      [
+        9963,
+        10054
+      ]
+    ]
+  },
+  "arXiv_2403.00077_page3_clusters2.png": {
+    "arxiv_number": "arXiv:2403.00077",
+    "page_number": 3,
+    "figure_number": 4,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "While straightforward, the Hadamard test has the drawbacks of requiring |ψ⟩to be an exact eigenstate and having SQL scaling Ns = O(ϵ−2) [49]",
+      "This requires modifying the Hadamard test circuit as follows",
+      "The circuit is iterated over integer values of j from 1 to J"
+    ],
+    "text_positions": [
+      [
+        10356,
+        10497
+      ],
+      [
+        10612,
+        10707
+      ],
+      [
+        10745,
+        10806
+      ]
+    ]
+  },
+  "arXiv_2403.00077_page4_clusters1.png": {
+    "arxiv_number": "arXiv:2403.00077",
+    "page_number": 4,
+    "figure_number": 5,
+    "quantum_gates": [
+      "Measurement",
+      "T"
+    ],
+    "quantum_problem": "Quantum Phase Estimation",
+    "descriptions": [
+      "Here we will focus on the surface code, for which 2d2 physical qubits are required to encode a distance-d logical qubit, where d is twice the number of physical errors that can be corrected per log- ical qubit [51]",
+      "We also assign a monolithic error rate to each logical qubit of pL, which is a function of p and d (vide infra Eq",
+      "The temporal overhead is quantified by the number of QEC code cycles required to implement a particular quantum computation"
+    ],
+    "text_positions": [
+      [
+        14823,
+        15038
+      ],
+      [
+        15038,
+        15152
+      ],
+      [
+        15155,
+        15279
+      ]
+    ]
+  },
+  "arXiv_2510.02430_page2_clusters1.png": {
+    "arxiv_number": "arXiv:2510.02430",
+    "page_number": 2,
+    "figure_number": -1,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Arithmetic Operation",
+    "descriptions": [
+      "Here we focus variational quantum algorithms im- plemented with discrete variable boson sampling [37] and demonstrate how to exploit quantum effects to improve their performance without reliance on any additional classical pre-processing in an application- agnostic manner",
+      "We build upon this by replacing each parametrised phase shifter with a non-linear phase shifter that has two distinct eigenvalues, similar to Pauli-generated unitaries in qubit-based systems, re- sulting in a simpler cost landscape with less local min- ima and barren plateaus irrespective of the problem we are solving",
+      "Then we introduce a non-linear phase shifter, the dual-valued phase shifter (DVPS), and study its resulting cost function"
+    ],
+    "text_positions": [
+      [
+        3868,
+        4141
+      ],
+      [
+        4292,
+        4612
+      ],
+      [
+        5605,
+        5727
+      ]
+    ]
+  },
+  "arXiv_2510.02430_page5_clusters1.png": {
+    "arxiv_number": "arXiv:2510.02430",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "The ancillary modes interact amongst themselves with a phase shifter of phase x/2, a tuneable beamsplitter of angle x ∈[0, 2π), and a sec- ond 50:50 beamsplitter",
+      "(b) If the non-deterministic gate fails, as heralded by no photon in the upper ancillary mode, then the ancillary photon exits the lower ancillary mode and is rerouted into the input of a second iteration of the non-deterministic gate with double the parameter",
+      "We have a single phase shifter of phase x/2, one tune- able beamsplitter with parameter x described by the unitary"
+    ],
+    "text_positions": [
+      [
+        18366,
+        18528
+      ],
+      [
+        18642,
+        18903
+      ],
+      [
+        20976,
+        21206
+      ]
+    ]
+  },
+  "arXiv_2510.02430_page21_clusters1.png": {
+    "arxiv_number": "arXiv:2510.02430",
+    "page_number": 21,
+    "figure_number": 10,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "where u is the original unitary matrix",
+      "where uk is an n × n matrix with components",
+      "We see that this amplitude vanishes because the matrix uk would have two identical rows and hence its determinant is zero"
+    ],
+    "text_positions": [
+      [
+        86061,
+        86164
+      ],
+      [
+        86061,
+        86164
+      ],
+      [
+        86307,
+        86429
+      ]
+    ]
+  },
+  "arXiv_2510.02430_page24_clusters2.png": {
+    "arxiv_number": "arXiv:2510.02430",
+    "page_number": 24,
+    "figure_number": 13,
+    "quantum_gates": [],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "C Derivations for the dual-valued phase shifter",
+      "A natural choice for the dual-valued phase shifter (DVPS) is to take",
+      "In this appendix we give a detailed overview of a potential deterministic realisation of the dual-valued phase shifter with non-linear optics"
+    ],
+    "text_positions": [
+      [
+        96497,
+        96547
+      ],
+      [
+        96497,
+        96547
+      ],
+      [
+        96787,
+        96929
+      ]
+    ]
+  },
+  "arXiv_2402.02185_page13_clusters1.png": {
+    "arxiv_number": "arXiv:2402.02185",
+    "page_number": 13,
+    "figure_number": 12,
+    "quantum_gates": [
+      "Measurement",
+      "Z"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Vertical edges represent measurement errors (with probability q), which flip the same detector twice in subsequent readout rounds",
+      "• Biased dephasing channel corresponds to a single- qubit Pauli channel having the same probabil- ity for X and Y errors, while Z errors are more likely [115, 116]",
+      "• Single-qubit depolarizing channel corresponds to a Pauli channel where all X, Y and Z errors are equiprobable with px = py = pz = p/3"
+    ],
+    "text_positions": [
+      [
+        58618,
+        58748
+      ],
+      [
+        60680,
+        60844
+      ],
+      [
+        60981,
+        61121
+      ]
+    ]
+  }
+}
